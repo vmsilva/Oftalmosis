@@ -1,0 +1,26 @@
+
+.div-popup-content .grid .scroll-wrapper {
+    max-height: 195px !important
+}
+
+.div-popup-content .grid {
+    margin: 0;
+    min-width: 500px;
+    min-height: 250px;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.div-popup-content  {min-height: 250px; max-height: 250px; overflow: hidden}
+
+#divPopUp{
+    background: url(/sistema/public/img/transp.png);
+    display: none;
+    position: absolute;
+    top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 97%;
+    clear: both;
+}
+

@@ -1,0 +1,37 @@
+#buscaPaciente{
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    height: 85px;
+    width: 550px;
+}
+
+#buscaPaciente #buscapac{
+    clear: both;
+    float: left;
+    height: 85px;
+}
+
+#buscaPaciente #dv_opr_pac .linha{margin: 2px;}
+#buscaPaciente #dv_opr_pac{
+   float: right;
+   display: inline-block;
+   height: 75px;
+   padding: 5px;
+   width: 155px;
+}
+
+#buscaPaciente #dv_opr_pac .linha button{width: 150px;}
+
+#buscaPaciente #buscapac .linha label:first-child {
+    display: inline-block;
+    width: 35px
+}
+
+#buscaPaciente #buscapac .linha #buscapac-tp_sexo_pac{width: 60px; background-color: #E8E8E8}
+#buscaPaciente #buscapac .linha #buscapac-lbl_dt_nasc_pac,
+#buscaPaciente #buscapac .linha #buscapac-lbl_cns_pac{margin-left: 1px;}
+#buscaPaciente #buscapac .linha #buscapac-dt_nasc_pac{width: 60px; background-color: #E8E8E8}
+
+#buscaPaciente #buscapac .linha #buscapac-nr_cns_pac{width: 98px; background-color: #E8E8E8}
+#buscaPaciente #buscapac .linha #buscapac-nm_pac,
+#buscaPaciente #buscapac .linha #buscapac-nm_mae_pac{width: 330px; background-color: #E8E8E8}

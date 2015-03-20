@@ -1,0 +1,67 @@
+.dialog-sga_h0008{width: 800px !important;}
+
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-cd_pac{margin-left: 15px; width: 85px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-dt_nasc_pac{margin-left: 15px; width: 85px;}
+#sga_h0008 #sga_h0008-f0008 #buscapac-nr_prontuario_pac{height: 15px;line-height: 15px;max-height: 15px;min-height: 15px;padding: 2px;width: 85px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-cd_procd_medc{height: 15px;line-height: 15px;max-height: 15px;min-height: 15px;padding: 2px;width: 85px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-nm_pac{height: 15px;line-height: 15px;max-height: 15px;min-height: 15px;padding: 2px;width: 450px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-nm_mae_pac{height: 15px;line-height: 15px;max-height: 15px;min-height: 15px;padding: 2px;width: 394px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-nm_procd_medc{height: 15px;line-height: 15px;max-height: 15px;min-height: 15px;padding: 2px;width: 450px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-ds_olho_esq {margin-top: 15px; width: 300px;height: 100px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-ds_olho_dir {margin-top: 15px; width: 300px;height: 100px;}
+#sga_h0008 #sga_h0008-f0008 #sga_h0008-ds_conclusao {margin-top: 15px; width: 685px; height: 125px}
+#sga_h0008 #sga_h0008-f0008 #buscaPaciente{width: 751px;}
+#sga_h0008 #sga_h0008-f0008 .botao-acao{margin-top:15px}
+
+
+#sga_h0008-f0008 label[for="sga_h0008-nm_pac"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-dt_nasc_pac"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;    
+    margin-top: 10px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-nm_mae_pac"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-nr_prontuario_pac"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    width: 85px;
+    margin-top: 10px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-nm_procd_medc"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+#sga_h0008-f0008 label[for="sga_h0008-ds_olho_esq"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-ds_olho_dir"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+#sga_h0008-f0008 label[for="sga_h0008-ds_conclusao"]{
+    display: inline-block;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: 20px;
+}

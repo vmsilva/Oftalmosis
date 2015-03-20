@@ -1,0 +1,762 @@
+* {
+    font-family: Tahoma !important;
+    font-size: 11px;
+	padding: 0;
+	margin: 0;
+        /*
+	transition: all 0.1s linear; 
+	-moz-transition: all 0.1s linear; 
+	-webkit-transition: all 0.1s linear;
+        */
+	outline: 0 !important;
+	outline: none !important;
+	vertical-align: middle
+}
+
+body {
+    overflow: hidden;
+    margin: 0;
+    font-family: Tahoma ;
+    font-size: 11px;
+}
+
+#cab a, #cab span {padding: 5px; display: inline-block}
+
+.menu_esquerdo h3 {
+	margin: 0;
+	padding: 8px;
+	display: block;
+	line-height: 12px;
+}
+
+.menu_esquerdo a {
+    display: block;
+    padding: 6px 10px;
+    cursor: pointer;
+    width: 140px;
+}
+
+#dv_menuSuperior{
+    background: #e3e3e3;
+    width: 100%;
+    height: 28px;
+}
+/** Css para o novo layout desktop */
+div.ui-dialog-titlebar{
+    font-size: 12px;
+    padding: 0.4em 1em;
+    position: relative;
+}
+
+.ui-dialog-titlebar-close, .ui-dialog-titlebar-minimize {margin-right: 10px}
+
+
+.ui-dialog .ui-dialog-titlebar-minimize {
+    position: absolute;
+    right: 1.9em;
+    top: 50%;
+    width: 19px;
+    margin: -10px 0 0 0;
+    padding: 0 /*1px*/;
+    height: 18px;
+}
+.ui-dialog .ui-dialog-titlebar-minimize{padding: 0px !important}
+
+.ui-dialog .ui-dialog-titlebar-close span,
+.ui-dialog .ui-dialog-titlebar-minimize span { display: block; margin: 0px !important; }
+
+.ui-dialog .ui-dialog-titlebar-close:hover, .ui-dialog .ui-dialog-titlebar-close:focus,
+.ui-dialog .ui-dialog-titlebar-minimize:hover, .ui-dialog .ui-dialog-titlebar-minimize:focus { padding: 0; }
+
+.janela label{
+    font-family:tahoma;
+    font-size: 11px;
+}
+
+.janela-ativa {
+    background-repeat: repeat-x;
+    opacity: 1 !important;
+    -moz-opacity: 1px !important;
+    background-image: -moz-linear-gradient(center top , #222, #888);
+}
+
+a {text-decoration: none}
+
+.left {float: left}
+.right {float: right}
+.clear {clear: both}
+
+/* inputs, textarea e select / formularios */
+
+.linha {margin: 5px 0}
+
+input, textarea, select {
+    font-family: Tahoma !important;
+    font-size: 11px !important;
+    border: 1px solid #c9c9c9
+}
+
+select {line-height: 20px; height: 20px; min-height: 20px; max-height: 20px}
+
+input[type=text]{padding: 2px;line-height: 15px; height: 15px; min-height: 15px; max-height: 15px}
+input[type=password]{padding: 2px;line-height: 15px; height: 15px; min-height: 15px; max-height: 15px}
+
+br {padding: 5px; margin-top: 10px;}
+
+/* ----------------- Estilo do botaos da taskbar----------------------------- */
+
+#task-bar {
+    bottom: 0;
+    display: block;
+    height: 27px;
+    padding: 4px;
+    position: fixed;
+    width: 100%;
+}
+
+#task-bar span.btn {
+    margin-right: 3px;
+}
+
+.btn {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-repeat: repeat-x;
+    border-image: none;
+    border-radius: 4px 4px 4px 4px;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 18px;
+    margin-bottom: 0;
+    padding: 4px 10px;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+#task-bar span.btn {
+    margin-right: 5px;
+    min-width: 120px;
+    max-width: 160px;
+    white-space: nowrap;
+}
+
+#task-bar span.btn i{
+    float: left;
+    margin-top: 3px
+}
+
+#task-bar .btn .label {	white-space: nowrap; display: block; float: left; text-overflow: ellipsis; overflow: hidden; min-width: 80px; max-width: 80px; margin-left: 5px}
+#task-bar .btn .fechar {display: block; float: left;margin-left: 5px}
+#task-bar .btn .fechar:after {content: ""; clear: both;}
+
+/*icones*/
+.icon-empresa {background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -0px -24px !important; width:16px !important; height:16px !important}
+.icon-user {background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -169px 0 !important; width:16px !important; height:16px !important}
+.icon-inicio {background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -0px -24px !important; width:16px !important; height:16px !important}
+.icon-senha {background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -287px -24px !important; width:16px !important; height:16px !important}
+.icon-sair {background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -384px 0 !important; width:16px !important; height:16px !important}
+.icon-formulario{background: url(../../../public/img/glyphicons-halflings.png) !important; border: none; background-position: -264px -24px !important; width:16px !important; height:16px !important}
+.icon-remove{background: url(../../../public/img/glyphicons-halflings-white.png) !important; border: none; background-position: -310px 0px !important; width:16px !important; height:16px !important}
+
+.ui-dialog-titlebar-close {
+    text-align: center;
+    background: url(../../../public/img/glyphicons-halflings-cinza.png) !important;
+    border-radius: 10px !important;
+    border: none !important;
+    background-position: -48px -96px !important;
+    width: 14px !important;
+    height: 14px !important;
+    margin-top: -8px !important
+}
+
+.ui-dialog-titlebar-close:hover {
+    background: url(../../../public/img/glyphicons-halflings-white.png) !important;
+    background-position: -48px -96px !important;
+    border: none !important;
+    margin-top: -8px !important;
+    padding: 0 !important
+}
+
+.ui-dialog-titlebar-minimize {
+    text-align: center;
+    background: url(../../../public/img/glyphicons-halflings-cinza.png) !important;
+    border-radius: 10px !important;
+    border: none !important;
+    background-position: -24px -96px !important;
+    width:14px !important;
+    height:14px !important;
+    margin-top: -8px !important
+}
+.ui-dialog-titlebar-minimize:hover {
+   background: url(../../../public/img/glyphicons-halflings-white.png) !important;
+   background-position: -24px -96px !important;
+   border: none !important;
+   margin-top: -8px !important;
+   padding: 0 !important
+}
+
+.fechar i{
+    display: block;
+    background: url(../../../public/img/glyphicons-halflings-cinza.png) -168px -96px  !important;
+    border-radius: 10px !important;
+}
+
+.fechar i:hover{
+    background: url(../../../public/img/glyphicons-halflings.png) -168px -96px  !important;
+}
+
+.buscar{
+    background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+    background-color: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B7B7B7;
+    background-position:-45px 2px !important;
+    border-radius: 0px 2px 2px 0px;
+    margin-left: -4px;
+    padding: 2px 10px 3px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle
+}
+
+.refresh{
+    background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+    background-color: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B7B7B7;
+    background-position: -213px -21px !important;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 10px 3px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle
+}
+
+/** Fim layou destkop */
+
+/* menu */
+.ui-menu-item a {
+    width: 200px!important;
+}
+
+#dv_menuSuperior .menuSuperior{
+    display: inline-block;
+    font-size: 11px;
+    width: 140px;
+    border-right: 1px solid #D9D9D9;
+}
+
+.menuSuperior > a {
+    cursor: pointer;
+    display: inline-block;
+    line-height: 26px !important;
+    padding: 0 5px;
+    background: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    width: 130px;
+}
+
+.menuSuperior >a >label{
+    margin-left: 5px;
+}
+
+.menuSuperior > ul {
+    display: none;
+    position: absolute;
+}
+
+.ui-icon-circle-triangle-w{
+    background: url(../../../public/img/jquery/ui-icons_222222_256x240.png) !important; border: none; background-position: -96px -16px !important; width:16px !important; height:16px !important
+}
+
+.ui-icon-circle-triangle-e{
+    background: url(../../../public/img/jquery/ui-icons_222222_256x240.png) !important; border: none; background-position: -32px -16px !important; width:16px !important; height:16px !important
+}
+
+.ui-datepicker .ui-datepicker-prev {
+    margin: 1px
+}
+
+.ui-datepicker .ui-datepicker-next {
+    margin: 1px
+}
+/*
+.ui-dialog-titlebar-minimize {display: block; width: 12px; height: 12px;  border: none !important; background: url(../sistema/public/img/glyphicons-halflings.png) #fff !important; background-position: -312px 0 !important;}
+.ui-dialog-titlebar-minimize:hover {display: block; width: 12px; height: 12px; border: none !important; background: url(../sistema/public/img/glyphicons-halflings-cinza.png) !important; background-position: -312px 0 !important;}
+.ui-dialog-titlebar-close {}*/
+
+#frm{
+    max-width: 100%;
+    background-color: #FFFFFF;
+    height: 1000px;
+}
+
+#frm img{
+    margin-top: 20%;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+/* Formata as janelas do Sistema */
+.ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-front.ui-draggable{
+    box-shadow: 0px 0px 4px black;
+    border: 1px solid #E3E3E3;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.ui-button ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close{border: none;}
+
+.ui-dialog-titlebar {-moz-opacity: 0.5; opacity: 0.5}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all.ui-helper-clearfix{
+    border-radius: 5px 5px 0px 0px;
+    background: linear-gradient(to bottom, #4C4C4C 0%, #2B2B2B 0%, #595959 0%, #666666 0%, #B7B7B7 0%, #000000 0%, #2C2C2C 0%, #383838 23%, #6D6D6D 100%) repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    font-family: Tahoma, verdana, arial;
+}
+
+.ui-menu .ui-menu-item a {margin: -1px; border: 1px solid #fff; padding: 3px 5px}
+.ui-menu {z-index: 999}
+
+
+/*botoes acao operacoes*/
+.botao-acao{
+    clear: both;
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button,
+.dialog-smg_h0014 .ui-dialog-buttonset button,
+#buscaPaciente #dv_opr_pac .linha button,
+.btn_add, .btn_rem,
+.botao-acao button {
+    background: rgb(242,242,242); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(242,242,242,1) 0%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #d9d9d9;
+    padding: 5px 10px;
+    min-width: 50px;
+    color: #000;
+    cursor:pointer;
+    text-align: center
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:hover,
+#buscaPaciente #dv_opr_pac .linha button:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:hover,
+.btn_add:hover, .btn_rem:hover,
+.botao-acao button:hover {
+	background: #999;
+	border: 1px solid #000;
+        color: #ffffff;
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:disabled,
+.dialog-smg_h0014 .ui-dialog-buttonset button:disabled,
+#buscaPaciente #dv_opr_pac .linha button:disabled,
+.btn_add:disabled, .btn_rem:disabled,
+.botao-acao button:disabled {
+	color: #CCCCCC;
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:disabled:hover,
+#buscaPaciente #dv_opr_pac .linha button:disabled:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:disabled:hover,
+.btn_add:disabled:hover, .btn_rem:disabled:hover,
+.botao-acao button:disabled:hover {
+	color: #CCCCCC;
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:disabled:hover,
+#buscaPaciente #dv_opr_pac .linha button:disabled:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:disabled:hover,
+.btn_add:disabled:hover, .btn_rem:disabled:hover,
+.botao-acao button:disabled:hover {
+    background: rgb(242,242,242); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(242,242,242,1) 0%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,242,242,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #d9d9d9;
+    cursor: default
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:active,
+#buscaPaciente #dv_opr_pac .linha button:active,
+.dialog-smg_h0014 .ui-dialog-buttonset button:active,
+.btn_add:active, .btn_rem:active,
+.botao-acao button:active {box-shadow: inset 1px 1px 2px #000}
+/*
+.botoes-acao button:nth-child(n) {border-right: none}*/
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:first-child,
+#buscaPaciente #dv_opr_pac .linha button:first-child,
+.dialog-smg_h0014 .ui-dialog-buttonset button:first-child,
+.btn_add:first-child, .btn_rem:first-child,
+.botao-acao button:first-child {border-radius: 5px 0 0 5px;}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:last-child,
+#buscaPaciente #dv_opr_pac .linha button:last-child,
+.dialog-smg_h0014 .ui-dialog-buttonset button:last-child,
+.btn_add:last-child, .btn_rem:last-child,
+.botao-acao button:last-child {border-radius: 0 5px 5px 0; border-right: 1px solid #d9d9d9}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:last-child:hover,
+#buscaPaciente #dv_opr_pac .linha button:last-child:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:last-child:hover,
+.btn_add:last-child:hover, .btn_rem:last-child:hover,
+.botao-acao button:disabled:last-child:hover {border-right: 1px solid #d9d9d9}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:disabled:active,
+#buscaPaciente #dv_opr_pac .linha button:disabled:active,
+.dialog-smg_h0014 .ui-dialog-buttonset button:disabled:active,
+.btn_add:disabled:active, .btn_rem:disabled:active,
+.botao-acao button:disabled:active {box-shadow: none}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:only-child,
+#buscaPaciente #dv_opr_pac .linha button:only-child,
+.dialog-smg_h0014 .ui-dialog-buttonset button:only-child,
+.btn_add:only-child, .btn_rem:only-child,
+.botao-acao button:only-child {border-radius: 5px}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button,
+#buscaPaciente #dv_opr_pac .linha button,
+.dialog-smg_h0014 .ui-dialog-buttonset button,
+.btn_add, .btn_rem,
+.botao-acao button {border-collapse: collapse }
+
+/* botao mini e menu topo e botoes acao */
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:hover,
+#buscaPaciente #dv_opr_pac .linha button:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:hover,
+.btn_add:hover, .btn_rem:hover,
+.botao-acao button:hover, .btn-mini:hover, .menu-vertical-container .ui-menu .ui-menu-item a:hover, .menu-vertical-container .ui-state-active {
+    background: rgb(69,72,77); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+    color: #ffffff;
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:hover,
+#buscaPaciente #dv_opr_pac .linha button:hover,
+.dialog-smg_h0014 .ui-dialog-buttonset button:hover,
+.btn_add:hover, .btn_rem:hover,
+.botao-acao button:hover {
+	border: 1px solid #000000
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:before,
+#buscaPaciente #dv_opr_pac .linha button:before,
+.dialog-smg_h0014 .ui-dialog-buttonset button:before,
+.btn_add:before, .btn_rem:before,
+.botao-acao button:before {
+	background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+	display: inline-block;
+	vertical-align: bottom !important;
+	content: "";
+	width: 14px;
+	height: 14px;
+	margin-right: 5px
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:disabled:before,
+#buscaPaciente #dv_opr_pac .linha button:disabled:before,
+.dialog-smg_h0014 .ui-dialog-buttonset button:disabled:before,
+.btn_add:disabled:before, .btn_rem:disabled:before,
+.botao-acao button:disabled:before {
+	background-image: url(../../../public/img/glyphicons-halflings-white.png) !important;
+	display: inline-block;
+	vertical-align: bottom !important;
+	content: "";
+	width: 14px;
+	height: 14px;
+	margin-right: 5px
+}
+
+.btn_incluir:before {
+	background-position: 0 -96px !important
+}
+
+.btn_excluir:before {
+	background-position: -48px -96px !important
+}
+
+.btn_alterar:before {
+	background-position: -24px -96px !important
+}
+.btn_limpar_pac:before,
+.btn_limpar:before {
+	background-position: -24px -96px !important
+}
+
+.btn_gerar:before {
+	background-position: -216px -24px !important
+}
+
+.btn_transferir:before {
+	background-position: -118px -73px !important
+}
+
+.btn_importa:before {
+	background-position: -94px -23px !important
+}
+
+.btn_selecionar:before {
+	background-position: -288px 0 !important
+}
+
+.btn_confirmar:before {
+        background-position: -72px -96px !important
+}
+
+.btn_imprimir:before {
+        background-position: -96px -48px !important
+}
+
+.btn_desbloquear:before {
+        background-position: -144px -120px !important
+}
+.btn_consultar:before{
+    background-position: -240px -24px !important
+}
+.btn_buscar_pac:before {
+	background-position: -167px 0px !important
+}
+
+.btn_novo_pac:before {
+	background-position: -72px -96px !important
+}
+
+.btn_add,.btn_rem{
+    margin: 0px; 
+    padding: 0px;
+    min-width: 20px !important;
+    max-width: 20px !important;
+    width: 20px !important;
+    min-height: 22px !important;
+    max-height: 22px !important;
+    height: 22px !important;
+}
+
+.btn_add:before{background-position: -289px 0px !important;}
+.btn_rem:before{background-position: -313px 0px !important;}
+
+.btn_editar{
+    background-image: url(../../../public/img/glyphicons-halflings-white.png) !important;
+    background-color: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B7B7B7;
+    background-position: -93px -117px !important;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 10px 3px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle
+}
+
+.btn_editar:hover{
+    background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+    background-color: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+}
+
+.btn_selecionar{
+    background-image: url(../../../public/img/glyphicons-halflings-white.png) !important;
+    background-color: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B7B7B7;
+    background-position: -285px 3px !important;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 10px 3px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle
+}
+
+.btn_selecionar:hover{
+    background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+    background-color: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+}
+
+.btn_edita_novo{
+    background-image: url(../../../public/img/glyphicons-halflings-white.png) !important;
+    background-color: linear-gradient(to bottom, #FEFEFE 0%, #D1D1D1 95%, #DBDBDB 100%, #E2E2E2 100%) repeat scroll 0 0 transparent;
+    background-repeat: no-repeat;
+    border: 1px solid #B7B7B7;
+    background-position: -261px -21px !important;
+    border-radius: 3px 3px 3px 3px;
+    padding: 2px 10px 3px 10px;
+    cursor: pointer;
+    width: 20px;
+    height: 21px;
+    vertical-align: middle
+}
+
+.btn_edita_novo:hover{
+    background-image: url(../../../public/img/glyphicons-halflings.png) !important;
+    background-color: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+}
+
+div.ui-dialog div.ui-dialog-buttonpane div.ui-dialog-buttonset button.ui-button:before{
+    float: left;
+    margin: 5px -5px 0 0;
+    background-position: -288px 0 !important
+}
+
+div.ui-dialog div.ui-dialog-buttonpane div.ui-dialog-buttonset button.ui-button span.ui-button-text {
+    float: right;
+    margin-right: -10px
+}
+
+div.ui-dialog div.ui-dialog-buttonpane div.ui-dialog-buttonset button.ui-button span.ui-button-text:after {
+    clear: both
+}
+
+#dv_busca_pac_loc #dv_dados_pac_opr .linha button:hover:before,
+#buscaPaciente #dv_opr_pac .linha button:hover:before,
+.dialog-smg_h0014 .ui-dialog-buttonset button:hover:before,
+.btn_add:hover:before, .btn_rem:hover:before,
+.botao-acao button:hover:before {
+	background-image: url(../../../public/img/glyphicons-halflings-white.png) !important;
+}
+
+.grid_cabecalho  {
+    background: linear-gradient(to bottom, #FFFFFF 0%, #F1F1F1 50%, #E1E1E1 51%, #F6F6F6 100%) repeat scroll 0 0 transparent;
+    border-bottom: 1px solid #d9d9d9;
+
+}
+
+.grid_cabecalho th {font-weight: normal !important; cursor: pointer}
+
+* {
+    border-collapse: collapse !important;
+}
+
+.grid_corpo {
+    height: 120px;
+    max-height: 120px;
+    min-height: 120px;
+    overflow: auto;
+}
+
+.grid_cabecalho th, .grid_corpo td {
+    border-collapse: collapse;
+    text-align: left;
+    border: none;
+    padding: 5px
+}
+/*
+.grid_cabecalho th:first-child, .grid_corpo td:first-child {
+    width: 100px !important;
+}
+*/
+.grid_corpo tr {display: block !important}
+
+.grid_corpo tr:hover {
+    background: #e9e9e9;
+    cursor: pointer
+}
+
+.divfiltrar {margin: 5px 0; text-align: right}
+
+.ui-datepicker-trigger {
+    margin-left: 5px;
+    cursor: pointer;
+    border: none;
+    width: 16px;
+    height: 16px;
+    background-image: url(../../../public/img/glyphicons-halflings-cinza.png);
+    background-position: -192px -120px;
+}
+
+.selecionado {
+    background: #B0C4DE !important;
+    font-style: italic !important;
+    color: #FFFFFF !important;
+    font-size: 10px !important;
+}
+
+.dialog-alteraSenha{
+    height: 200px !important;
+}
+
+.dialog-alteraSenha #dv_alteraSenha-f0001 .linha label:first-child {
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px !important;
+}
+
+.dialog-alteraSenha #dv_alteraSenha-f0001 .linha input{
+    width: 120px !important;
+}
+#dv_alteraSenha .botao-acao{margin-top: 15px;}
+#dv_alteraSenha .botao-acao button{width: 100px;}
+#dv_alteraSenha .botao-acao .btn_confirmar{margin-left: 25px; margin-right: -4px;}
+
+.movimento{
+    background: #D5F7C5; /* Old browsers */
+    background: -moz-linear-gradient(top,  #D5F7C5 0%, #D5F7C5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#D5F7C5), color-stop(100%,#D5F7C5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #D5F7C5 0%,#D5F7C5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #D5F7C5 0%,#D5F7C5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #D5F7C5 0%,#D5F7C5 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #D5F7C5 0%,#D5F7C5 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#D5F7C5', endColorstr='#D5F7C5',GradientType=0 ); /* IE6-9 */
+}
+
+.liberado{
+    background: #DFEEFF; /* Old browsers */
+    background: -moz-linear-gradient(top,  #DFEEFF 0%, #DFEEFF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#DFEEFF), color-stop(100%,#DFEEFF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #DFEEFF 0%,#DFEEFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #DFEEFF 0%,#DFEEFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #DFEEFF 0%,#DFEEFF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #DFEEFF 0%,#DFEEFF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DFEEFF', endColorstr='#DFEEFF',GradientType=0 ); /* IE6-9 */
+}
+
+.bloqueado{
+    background: #FFEFF4; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FFEFF4 0%, #FFEFF4 100%, #FFEFF4 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFEFF4), color-stop(100%,#FFEFF4), color-stop(100%,#FFEFF4)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FFEFF4 0%,#FFEFF4 100%,#FFEFF4 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FFEFF4 0%,#FFEFF4 100%,#FFEFF4 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FFEFF4 0%,#FFEFF4 100%,#FFEFF4 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FFEFF4 0%,#FFEFF4 100%,#FFEFF4 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFEFF4', endColorstr='#FFEFF4',GradientType=0 ); /* IE6-9 */
+}
+
+.alocado{
+    background: #FBFFBF; /* Old browsers */
+    background: -moz-linear-gradient(top,  #FBFFBF 0%, #FBFFBF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FBFFBF), color-stop(100%,#FBFFBF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #FBFFBF 0%,#FBFFBF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #FBFFBF 0%,#FBFFBF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #FBFFBF 0%,#FBFFBF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #FBFFBF 0%,#FBFFBF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FBFFBF', endColorstr='#FBFFBF',GradientType=0 ); /* IE6-9 */
+}

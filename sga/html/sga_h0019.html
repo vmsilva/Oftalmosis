@@ -1,0 +1,23 @@
+<div id="sga_h0019" class="janela">
+    <div id="sga_h0019-f0019">
+        <div class="linha">
+            <label for="sga_h0019-cd_guiche">Guichê/Box:</label>
+            <input type="text" id="sga_h0019-cd_box" name="sga_h0019[cd_box]" value="" title="Código Guichê" />
+            <input type="text" id="sga_h0019-nm_box" name="sga_h0019[nm_box]" value="" title="Nome Guichê" />
+        </div>
+        <div class="linha">
+            <label for="sga_h0019-cd_serv_painel">Serviço:</label>
+            <select id="sga_h0019-cd_serv_painel" name="sga_h0019[cd_serv_painel]"></select>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sga_h0019';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

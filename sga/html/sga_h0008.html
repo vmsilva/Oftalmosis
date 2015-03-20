@@ -1,0 +1,41 @@
+<div id="sga_h0008" class="janela">
+    <div id="sga_h0008-f0008">
+        <div class="linha">
+            <input type="hidden" id="buscapac-cd_pac" name="buscapac[cd_pac]" value=""/>
+            <?php include '../../default/view/buscaPac.php'; ?>
+        </div>
+           <input type="hidden" id="sga_h0008-cd_ex_laudo" name="sga_h0008[cd_ex_laudo]" />
+           <div class="linha">
+                <label for='sga_h0008-nr_prontuario_pac'>Nr Prontuario:</label>
+                <input type="text" id="buscapac-nr_prontuario_pac" name="buscapac[nr_prontuario_pac]" value="" title="Numero Prontuário Paciente" maxlength="10"/>
+                <button type="button" name="sga_h0008[btn_lista_nr_prontuario]" id="sga_h0008-btn_lista_nr_prontuario" class="buscar" title="Clique no bot&atilde;o para buscar Procedimento"></button>
+           </div>
+           <div class="linha">
+                <label for='sga_h0008-nm_procd_medc'>Procedimento:</label>
+                <input type="text" id="sga_h0008-cd_procd_medc" name="sga_h0008[cd_procd_medc]" value="" title="Código Procedimento" />
+                <input type="text" id="sga_h0008-nm_procd_medc" name="sga_h0008[nm_procd_medc]" value="" title="Nome Procedimento" />
+                <button type="button" name="sga_h0008[btn_lista_procd]" id="sga_h0008-btn_lista_procd" class="buscar" title="Clique no bot&atilde;o para buscar Procedimento"></button>
+           </div>
+           <div class="linha">
+                <label for='sga_h0008-ds_olho_esq'>Olho Esquerdo:</label>
+                <textarea id="sga_h0008-ds_olho_esq" name="sga_h0008[ds_olho_esq]"></textarea>
+                <label for='sga_h0008-ds_olho_dir'>Olho Direito:</label>
+                <textarea id="sga_h0008-ds_olho_dir" name="sga_h0008[ds_olho_dir]"></textarea>
+           </div>
+           <div class="linha">
+                <label for='sga_h0008-ds_conclusao'>Conclusão:</label>
+                <textarea id="sga_h0008-ds_conclusao" name="sga_h0008[ds_conclusao]"></textarea>
+           </div>
+        </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sga_h0008';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>    
+</div>
+<div id="divPopUp" align="center"></div>

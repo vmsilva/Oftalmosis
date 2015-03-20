@@ -1,0 +1,39 @@
+<div id="scp_h0006" class="janela">
+    <div id="scp_h0006-f0006">
+        <div class="linha">
+            <input type="hidden" id="scp_h0006-nr_prontuario_aux"/>
+            <label for="scp_h0006-nr_prontuario">N&uacute;mero Prontu&aacute;rio:</label>
+            <input type="text" id="scp_h0006-nr_prontuario" name="scp_h0006[nr_prontuario]" value="" title="C&oacute;digo Prontu&aacute;rio Paciente" />
+        </div>
+        <div class="linha">
+            <div class="grid_cabecalho">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id='th_pro'>Prontuário</th>
+                            <th id='th_pac'>Paciente</th>
+                            <th id='th_sex'>Sexo</th>
+                            <th id='th_dtn'>Dt.Nasc.</th>
+                            <th id='th_mae'>Mãe</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div id="scp_h0006-tbl_result" class="linha selecionavel">
+                <table>
+                    <tbody class='grid_corpo'></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0006';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

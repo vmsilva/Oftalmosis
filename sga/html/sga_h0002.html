@@ -1,0 +1,38 @@
+<div id="sga_h0002" class="janela">
+    <div id="sga_h0002-f0002">
+        <div class="linha">
+            <label for="sga_h0002-cd_grp_consulta">Grupo Consulta:</label>
+            <input id="sga_h0002-cd_grp_consulta" name="sga_h0002[cd_grp_consulta]" type="text"/>
+            <input id="sga_h0002-nm_grp_consulta" name="sga_h0002[nm_grp_consulta]" type="text"/>
+            <button type="button" name="sga_h0002[btn_lista_grp_consulta]" id="sga_h0002-btn_lista_grp_consulta" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+            <label for="sga_h0002-cd_procd_medc">Procedimento:</label>
+            <input id="sga_h0002-cd_procd_medc" name="sga_h0002[cd_procd_medc]" type="text"/>
+            <input id="sga_h0002-nm_procd_medc" name="sga_h0002[nm_procd_medc]" type="text"/>
+            <button type="button" name="sga_h0002[btn_lista_procd_medc]" id="sga_h0002-btn_lista_procd_medc" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+            <label for="sga_h0002-vl_sa_cont">Valor:</label>
+            <input id="sga_h0002-vl_sa_cont" name="sga_h0002[vl_sa_cont]" type="text" title="Valor Procedimento"/>
+            <label for="sga_h0002-nr_qtde_procd_medc">Qtd:</label>
+            <input id="sga_h0002-nr_qtde_procd_medc" name="sga_h0002[nr_qtde_procd_medc]" type="text" title="Quantidade Procedimento"/>
+        </div>
+        <div class="linha">       
+            <div id="sga_h0002-result" class="linha selecionavel">
+        </div>    
+        <div class="linha">    
+            <div id="sga_h0002-botao-acao" class="botao-acao">
+                <?php
+                    if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+                        $ar_formulario = 'sga_h0002';
+                        include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+                    }else{
+                        echo 'Arquivo botaoAcao.php não encontrado!';
+                    }
+                ?>
+            </div>
+        </div>
+    </div>    
+</div>
+

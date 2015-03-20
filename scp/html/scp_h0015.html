@@ -1,0 +1,36 @@
+<div id="scp_h0015" class="janela">
+    <div id="f0015">
+        <div class="linha">
+            <fieldset>
+                <legend>Meu(s) Prontuário(s)</legend>
+                <div id="scp_h0015-tbl_result" class="linha selecionavel"></div>
+            </fieldset>
+        </div>
+        <div class="linha">
+            <label for="scp_h0015-nr_matr_usu">Usu&aacute;rio:</label>
+            <input type="hidden" id="scp_h0015-cd_usuario" name="scp_h0015[cd_usuario]" value=""/>
+            <input type="text" id="scp_h0015-nr_matr_usu" name="scp_h0015[nr_matr_usu]" value="" title="Matr&iacute;cula Usu&aacute;rio"/>
+            <input type="text" id="scp_h0015-nm_usuario" name="scp_h0015[nm_usuario]" value="" title="Nome Usu&aacute;rio"/>
+            <button type="button" name="scp_h0015[btn_lista_usuario]" id="scp_h0015-btn_lista_usuario" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+            <fieldset>
+                <legend>Prontuário(s) Transferido</legend>
+                <div id="scp_h0015-tbl_result_transf" class="linha selecionavel"></div>
+            </fieldset>
+        </div>
+    </div>
+    
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0015';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+    <input type="hidden" id="scp_h0015-cd_usuario" value=""/>
+    <input type="hidden" id="scp_h0015-nr_prontuario" value=""/>
+</div>

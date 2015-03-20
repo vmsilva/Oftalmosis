@@ -1,0 +1,60 @@
+.dialog-scp_h0010{height: 490px !important;}
+
+#scp_h0010{width: 600px !important; height: 455px !important;}
+#scp_h0010 #scp_h0010-f0010{height: 420px;}
+#scp_h0010 .botao-acao{margin: 0px; padding: 0px;}
+#scp_h0010 #dialog-negar{display: none !important;}
+
+#dialog-negar #dialog-negar-descricao{
+    min-width: 220px !important;
+    width: 220px !important;
+    max-width: 220px !important;
+    min-height: 100px !important;
+    height: 100px !important;
+    max-height: 100px !important;
+    resize: none !important;
+    clear: left !important;
+}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result{height: 120px !important; min-height: 120px !important; max-height: 120px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_cabecalho table thead tr th:nth-child(1){width: 70px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_cabecalho table thead tr th:nth-child(2){width: 60px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_cabecalho table thead tr th:nth-child(3){width: 60px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_cabecalho table thead tr th:nth-child(4){width: 360px !important;}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_corpo{overflow-x: hidden; overflow-y: auto; height: 100px !important; min-height: 100px !important; max-height: 100px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_corpo table tbody tr td:nth-child(1){width: 70px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_corpo table tbody tr td:nth-child(2){width: 60px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_corpo table tbody tr td:nth-child(3){width: 60px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_result #grid-busca-scp_c0010-ListaConfirmaMovimentacaoProntuario .grid_corpo table tbody tr td:nth-child(4){width: 360px !important;}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista{height: 120px !important; min-height: 120px !important; max-height: 120px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_cabecalho table thead tr th:nth-child(1){width: 75px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_cabecalho table thead tr th:nth-child(2){width: 375px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_cabecalho table thead tr th:nth-child(3){width: 50px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_cabecalho table thead tr th:nth-child(4){width: 50px !important;}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_corpo{overflow-x: hidden; overflow-y: auto; height: 100px !important; min-height: 100px !important; max-height: 100px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_corpo table tbody tr td:nth-child(1){width: 75px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_corpo table tbody tr td:nth-child(2){width: 375px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_corpo table tbody tr td:nth-child(3){width: 50px !important; text-align: center;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista .grid_corpo table tbody tr td:nth-child(4){width: 50px !important; text-align: center;}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf{height: 120px !important; min-height: 120px !important; max-height: 120px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf .grid_cabecalho table thead tr th:nth-child(1){width: 75px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf .grid_cabecalho table thead tr th:nth-child(2){width: 288px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf .grid_cabecalho table thead tr th:nth-child(3){width: 190px !important;}
+
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf #dv_tbody{
+    overflow-x: hidden !important; 
+    overflow-y: auto !important; 
+    height: 120px !important; 
+    min-height: 120px !important; 
+    max-height: 120px !important;
+    position: fixed;
+    width: 597px;
+    display: inline-block;
+}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf table tbody tr td:nth-child(1){width: 70px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf table tbody tr td:nth-child(2){width: 290px !important;}
+#scp_h0010 #scp_h0010-f0010 #scp_h0010-tbl_lista_conf table tbody tr td:nth-child(3){width: 190px !important;}

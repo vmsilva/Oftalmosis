@@ -1,0 +1,21 @@
+#scp_h0004 #scp_h0004-f0004 fieldset{
+    border: 1px solid #DCDCDC;
+    width: 525px;
+}
+
+#scp_h0004 #scp_h0004-f0004 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#scp_h0004 #scp_h0004-f0004 .linha fieldset label:first-child {
+    display: inline-block;
+    width: 85px;
+    margin-left: 5px !important;
+}
+
+#scp_h0004 #scp_h0004-f0004 .linha fieldset #scp_h0004-nr_pront_antigo{width: 60px; text-align: right}

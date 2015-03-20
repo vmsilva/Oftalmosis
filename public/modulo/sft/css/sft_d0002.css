@@ -1,0 +1,112 @@
+#sft_h0002 #sft_h0002-f0002 .linha label:first-child{
+    width: 95px;
+    display: inline-block;
+}
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-dt_atend{width: 60px !important;}
+
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-cd_espld_medc{width: 35px !important;}
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-nm_espld_medc{width: 393px !important;}
+
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-cd_conselho{width: 65px !important;}
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-nr_conselho{width: 40px !important;}
+#sft_h0002 #sft_h0002-f0002 #sft_h0002-nm_prof{width: 320px !important;}
+
+#sft_h0002 #sft_h0002-f0002 fieldset {
+    border: 1px solid #DCDCDC;
+    width: 590px;
+}
+
+#sft_h0002 #sft_h0002-f0002 fieldset legend {
+    color: #DCDCDC;
+    font-family: tahoma;
+    font-size: 10px;
+    font-style: italic;
+    margin-left: 5px;
+    padding: 5px;
+}
+
+#sft_h0002 #sft_h0002-f0002 fieldset .linha input[type=checkbox]{margin-left: 5px;}
+#sft_h0002 #sft_h0002-f0002 fieldset .linha label{padding: 5px;}
+
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-grp_procd_medc label[for='sft_h0002-cd_grp_consulta']{width: 80px; display: inline-block;}    
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-grp_procd_medc #sft_h0002-cd_grp_consulta{width: 32px !important;}
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-grp_procd_medc #sft_h0002-nm_grp_consulta{width: 377px !important;}
+
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-grp_procd_medc #sft_h0002-tbl_result-grupo_consulta{
+    width: 445px;
+    display: inline-block;
+    margin-left: 93px;
+    min-height: 35px;
+    height: 35px;
+    max-height: 35px;
+}
+
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-procd_medc label[for='sft_h0002-cd_procd_medc']{width: 80px; display: inline-block;}    
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-procd_medc #sft_h0002-cd_procd_medc{width: 65px !important;}
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-procd_medc #sft_h0002-nm_procd_medc{width: 345px !important;}
+
+#sft_h0002 #sft_h0002-f0002 fieldset .linha #sft_h0002-procd_medc #sft_h0002-tbl_result-procd_medc{
+    width: 445px;
+    display: inline-block;
+    margin-left: 93px;
+    min-height: 20px;
+    min-height: 45px;
+    height: 45px;
+    max-height: 45px;
+}
+
+.ui-dialog .div-modal{width: 500px !important;}
+
+/* Div-modal Especialidade*/
+#grid-busca-smg_c0008-ConsultaNomeEspecialidade .grid_cabecalho table thead tr th:nth-child(1){width: 35px !important;}
+#grid-busca-smg_c0008-ConsultaNomeEspecialidade .grid_cabecalho table thead tr th:nth-child(2){width: 360px !important;}
+#grid-busca-smg_c0008-ConsultaNomeEspecialidade .grid_corpo table tbody tr td:nth-child(1){width: 45px !important;}
+#grid-busca-smg_c0008-ConsultaNomeEspecialidade .grid_corpo table tbody tr td:nth-child(2){width: 360px !important;}
+
+/* Div-modal Profissional*/
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_cabecalho table thead tr th:nth-child(1){width: 25px !important;}
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_cabecalho table thead tr th:nth-child(2){width: 25px !important;}
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_cabecalho table thead tr th:nth-child(3){width: 300px !important;}
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_corpo table tbody tr td:nth-child(1){width: 35px !important;}
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_corpo table tbody tr td:nth-child(2){width: 50px !important;}
+#grid-busca-smg_c0005-ConsultaConselhoNomeProfissional .grid_corpo table tbody tr td:nth-child(3){}
+
+/* Div-modal Grupo Consulta*/
+#grid-busca-sga_c0001-consultaNomeGrupoConsulta .grid_cabecalho table thead tr th:nth-child(1){width: 55px !important;}
+#grid-busca-sga_c0001-consultaNomeGrupoConsulta .grid_cabecalho table thead tr th:nth-child(2){width: 360px !important;}
+#grid-busca-sga_c0001-consultaNomeGrupoConsulta .grid_corpo table tbody tr td:nth-child(1){width: 65px !important;}
+#grid-busca-sga_c0001-consultaNomeGrupoConsulta .grid_corpo table tbody tr td:nth-child(2){width: 360px !important;}
+
+/* Div-modal Procedimento*/
+#grid-busca-smg_c0010-consultaNomeProcedimento .grid_cabecalho table thead tr th:nth-child(1){width: 55px !important;}
+#grid-busca-smg_c0010-consultaNomeProcedimento .grid_cabecalho table thead tr th:nth-child(2){width: 360px !important;}
+#grid-busca-smg_c0010-consultaNomeProcedimento .grid_corpo table tbody tr td:nth-child(1){width: 65px !important;}
+#grid-busca-smg_c0010-consultaNomeProcedimento .grid_corpo table tbody tr td:nth-child(2){width: 360px !important;}
+
+.dialog-sft_h0002-div .div-modal{
+    width: 975px !important;
+    overflow: hidden;
+}
+
+#grid-busca-sft_h0002-listaAgenda{
+    width: 985px !important;
+    overflow: hidden;
+}
+
+#grid-busca-sft_h0002-listaAgenda .grid_corpo{
+    min-height: 315px !important;
+    height: 315px !important;
+    max-height: 315px !important;
+}
+
+#grid-busca-sft_h0002-listaAgenda .grid_cabecalho #sft_h0002-listaAgenda_1,
+#grid-busca-sft_h0002-listaAgenda .grid_corpo .sft_h0002-listaAgenda_1{width: 250px !important;}
+
+#grid-busca-sft_h0002-listaAgenda .grid_cabecalho #sft_h0002-listaAgenda_2,
+#grid-busca-sft_h0002-listaAgenda .grid_corpo .sft_h0002-listaAgenda_2{width: 60px !important; text-align: center}
+
+#grid-busca-sft_h0002-listaAgenda .grid_cabecalho #sft_h0002-listaAgenda_3,
+#grid-busca-sft_h0002-listaAgenda .grid_corpo .sft_h0002-listaAgenda_3{width: 30px !important; text-align: center}
+
+#grid-busca-sft_h0002-listaAgenda .grid_cabecalho #sft_h0002-listaAgenda_4,
+#grid-busca-sft_h0002-listaAgenda .grid_corpo .sft_h0002-listaAgenda_4{width: 250px !important;}

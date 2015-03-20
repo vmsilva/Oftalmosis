@@ -1,0 +1,26 @@
+<div id="sga_h0006" class="janela">
+    <div id="sga_h0006-f0006">
+        <!--div class="linha">
+            <label for="sga_h0006-nr_cnes">Conv&ecirc;nio:</label>
+            <input type="hidden" id="sga_h0006-cd_cnes" name="sga_h0006[cd_cnes]" value="" title="C&oacute;digo Conv&ecirc;nio" />
+            <input type="text" id="sga_h0006-nr_cnes" name="sga_h0006[nr_cnes]" value="" title="N&uacute;mero Cnes do Conv&ecirc;nio" />
+            <input type="text" id="sga_h0006-nm_cnes" name="sga_h0006[nm_cnes]" value="" title="Nome Cnes do Conv&ecirc;nio" />
+            <button type="button" name="sga_h0006[btn_lista_nm_cnes]" id="sga_h0006-btn_lista_nm_cnes" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div-->
+        <div class="linha">
+            <label for="sga_h0006-fakeupload">Arquivo:</label>
+            <input id="sga_h0006-fakeupload" name="sga_h0006[fakeupload]" class="fakeupload" type="text"/>
+            <input id="sga_h0006-realupload" name="sga_h0006[realupload]" class="realupload" type="file"/>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sga_h0006';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

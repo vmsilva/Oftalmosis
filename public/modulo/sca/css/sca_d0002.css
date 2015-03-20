@@ -1,0 +1,27 @@
+.dialog-sca_h0002{width: 475px !important; height: 216px !important; }
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha label:first-child{
+    display: inline-block;
+    width: 65px;
+}
+
+.dialog-sca_h0002 .botao-acao{margin-top: 20px;}
+
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-nr_matr_usu{width: 35px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-nm_usuario{width: 299px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-dt_nasc_usu{width: 60px; text-align: center}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-nr_tel_usu{width: 75px; text-align: center}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-dt_exp_snh_usu{width: 60px; text-align: center}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha label[for="sca_h0002-nr_tel_usu"],
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha label[for="sca_h0002-dt_exp_snh_usu"]{margin-left: 6px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-ds_email_usu{width: 365px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-tp_perm_usu{width: 100px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha label[for="sca_h0002-st_usuario"]{margin-left: 120px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-st_usuario{width: 110px;}
+.dialog-sca_h0002 #sca_h0002 #f0002 .linha #sca_h0002-nr_cpf{width: 85px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario{width: 400px !important}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(1){width: 45px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(2){width: 300px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(1){width: 50px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(2){width: 313px;}

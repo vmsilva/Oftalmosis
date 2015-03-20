@@ -1,0 +1,55 @@
+<div id="sga_h0003" class="janela">
+    <div id="sga_h0003-f0003">        
+        <div class="linha">
+            <label for="sga_h0003-cd_procd_medc">Procedimento:</label>
+            <input id="sga_h0003-cd_procd_medc" name="sga_h0003[cd_procd_medc]" type="text" title="Código do Procedimento"/>
+            <input id="sga_h0003-nm_procd_medc" name="sga_h0003[nm_procd_medc]" type="text" title="Nome do Procedimento" />
+            <button type="button" name="sga_h0003[btn_lista_procd_medc]" id="sga_h0003-btn_lista_procd_medc" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">            
+            <label for="sga_h0003-nr_dia_semana">Dia da Semana:</label>
+            <select id="sga_h0003-nr_dia_semana" name="sga_h0003[nr_dia_semana]">
+                <option></option>
+                <option value="0">Domingo</option>
+                <option value="1">Segunda</option>
+                <option value="2">Terça</option>
+                <option value="3">Quarta</option>
+                <option value="4">Quinta</option>
+                <option value="5">Sexta</option>
+                <option value="6">Sábado</option>
+            </select>
+            <label for="sga_h0003-in_local_atend">Local de Atendimento:</label>
+            <input id="sga_h0003-in_local_atend" name="sga_h0003[in_local_atend]" type="text" title="Local De Atendimento"/>
+        </div>
+        <div class="linha">
+            <label for="sga_h0003-hr_ini_atend">Hora Inicial:</label>
+            <input id="sga_h0003-hr_ini_atend" name="sga_h0003[hr_ini_atend]" type="text" title="Hora Inicial"/>
+            <label for="sga_h0003-hr_fin_atend">Hora Final:</label>
+            <input id="sga_h0003-hr_fin_atend" name="sga_h0003[hr_fin_atend]" type="text" title="Hora Final"/>
+            <label for="sga_h0003-nr_id_min">Idade Minima:</label>
+            <input id="sga_h0003-nr_id_min" name="sga_h0003[nr_id_min]" type="text" title="Minimo" />
+            <label for="sga_h0003-nr_id_max">Idade Máxima:</label>
+            <input id="sga_h0003-nr_id_max" name="sga_h0003[nr_id_max]" type="text" title="Máximo"/>        
+            <label for="sga_h0003-nr_qtd_atend">Qtd:</label>
+            <input id="sga_h0003-nr_qtd_atend" name="sga_h0003[nr_qtd_atend]" type="text" title="Quantidade"/>        
+        </div>
+        <div class="linha">       
+            <div id="sga_h0003-result" class="linha selecionavel">
+            </div>
+        </div>
+        <div class="linha">    
+            <div id="sga_h0003-botao-acao" class="botao-acao">
+                <?php
+                    if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+                        $ar_formulario = 'sga_h0003';
+                        include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+                    }else{
+                        echo 'Arquivo botaoAcao.php não encontrado!';
+                    }
+                ?>
+            </div>
+        </div>
+        <input type="hidden" id="sga_h0003-cd_grade"/>
+    </div>    
+</div>
+

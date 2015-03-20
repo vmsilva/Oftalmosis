@@ -1,0 +1,41 @@
+#smg_h0020 #smg_h0020-f0020 .linha label:first-child {
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px !important;
+}
+
+#smg_h0020 #smg_h0020-f0020 fieldset{
+    border: 1px solid #DCDCDC;
+    width: 490px;
+    padding-left: 5px;
+}
+
+#smg_h0020 #smg_h0020-f0020 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#smg_h0020 .linha #smg_h0020-nr_prontuario{width: 70px;}
+
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-nm_pac,
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-nm_mae_pac{width: 350px;}
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-tp_sexo_pac{width: 80px;}
+#smg_h0020 #smg_h0020-f0020 .linha label[for=smg_h0020-dt_nasc_pac]{margin-left: 134px !important;}
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-dt_nasc_pac{width: 70px;}
+
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-cd_pais_orig_pac{width: 20px;}
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-nm_pais_orig_pac{width: 300px;}
+
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-cd_munic_nasc_pac,
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-cd_munic_nasc_mae_pac{width: 40px;}
+
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-sg_uf_nasc_pac,
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-sg_uf_nasc_mae_pac{width: 40px;}
+
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-nm_munic_nasc_pac,
+#smg_h0020 #smg_h0020-f0020 .linha #smg_h0020-nm_munic_nasc_mae_pac{width: 237px;}
+

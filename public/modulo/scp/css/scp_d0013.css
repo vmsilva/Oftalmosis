@@ -1,0 +1,27 @@
+.dialog-scp_h0013{width: 600px !important;}
+
+#scp_h0013{width: 500px !important;}
+#scp_h0013 #scp_h0013-f0013 .linha label:first-child {display: inline-block; width: 50px;}
+
+#scp_h0013 #scp_h0013-realupload {
+      cursor: pointer;
+      display: inline-block;
+      float: right;
+      height: 20px !important;
+      opacity:0;
+      position: relative;
+      right: 11px !important;
+      width: 435px !important;
+      top: -21px !important;
+      -moz-opacity:0;
+      filter:alpha(opacity:0);
+}
+
+#scp_h0013 #scp_h0013-fakeupload{
+      width: 431px;
+      background-image: url("/sistema/public/img/botao-selecione.png");
+      background-repeat: no-repeat;
+      cursor: default;
+      background-position: 99% 60%;
+      height: 15px !important;
+}

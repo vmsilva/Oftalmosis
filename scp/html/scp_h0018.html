@@ -1,0 +1,54 @@
+<div id="scp_h0018" class="janela">
+    <div id="scp_h0018-f0018">
+        <div class="linha">
+            <label for="scp_h0018-nr_prontuario">Prontuário:</label>
+            <input type="text" id="scp_h0018-nr_prontuario" name="scp_h0018[nr_prontuario]" value="" title="Número de Prontuário" />
+        </div>
+        <div id="buscaPaciente" class="janela">
+            <div id="buscapac">
+                <div class="linha">
+                    <label>Sexo:</label>
+                    <input id="scp_h0018-tp_sexo_pac" class="isValid[required]" type="text" readonly="" value="" title="Sexo Paciente" name="scp_h0018[tp_sexo_pac]">
+                    <label id="scp_h0018-lbl_dt_nasc_pac">Dt.Nasc.:</label>
+                    <input id="scp_h0018-dt_nasc_pac" class="isValid[required]" type="text" readonly="" title="Data de Nascimento" value="" name="scp_h0018[dt_nasc_pac]">
+                    <label id="scp_h0018-lbl_cns_pac">Nr.CNS:</label>
+                    <input id="scp_h0018-nr_cns_pac" class="isValid[required]" type="text" readonly="" title="Número Cartão SUS" value="" name="scp_h0018[nr_cns_pac]">
+                </div>
+                <div class="linha">
+                    <label>Nome:</label>
+                    <input id="scp_h0018-cd_pac" type="hidden" value="" name="buscapac[cd_pac]">
+                    <input id="scp_h0018-nm_pac" class="isValid[required]" type="text" readonly="" title="Nome Paciente" value="" name="scp_h0018[nm_pac]">
+                </div>
+                <div class="linha">
+                    <label>Mãe:</label>
+                    <input id="scp_h0018-nm_mae_pac" class="isValid[required]" type="text" readonly="" title="Nome Mãe Paciente" value="" name="scp_h0018[nm_mae_pac]">
+                </div>    
+            </div>
+        </div>
+        <div id="scp_h0018-tbl_result">
+        <!--div class="grid_cabecalho">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prontuário</th>
+                        <th>Paciente</th>
+                        <th>Hr.Atend</th>
+                        <th>Situação</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="grid_corpo"><table><tbody id="tbody"></tbody></table></div-->
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0018';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

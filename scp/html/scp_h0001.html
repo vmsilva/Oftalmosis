@@ -1,0 +1,44 @@
+<div id="scp_h0001" class="janela">
+    <div id="scp_h0001-f0001">
+        <div class="linha">
+            <label for="scp_h0001-cd_prateleira">Prateleira:</label>
+            <input type="text" id="scp_h0001-cd_prateleira" name="scp_h0001[cd_prateleira]" value="" title="C&oacute;digo Prateleira" />
+            <input type="text" id="scp_h0001-nm_prateleira" name="scp_h0001[nm_prateleira]" value="" title="Nome Prateleira" />
+            <label for="scp_h0001-in_andar_prateleira">Andar:</label>
+            <select id="scp_h0001-in_andar_prateleira" name="scp_h0001[in_andar_prateleira]">
+                <option selected value=""></option>
+                <option value="0">Térreo</option>
+                <option value="1">1° Andar</option>
+                <option value="2">2° Andar</option>
+                <option value="3">Auditório</option>
+            </select>
+        </div>
+        <div class="linha">
+            <label for="scp_h0001-nr_linha_prateleira">Nr.Linhas:</label>
+            <input type="text" id="scp_h0001-nr_linha_prateleira" name="scp_h0001[nr_linha_prateleira]" value="" title="N&uacute;mero de Linhas Prateleira" />
+            <label for="scp_h0001-nr_coluna_prateleira">Nr.Colunas:</label>
+            <input type="text" id="scp_h0001-nr_coluna_prateleira" name="scp_h0001[nr_coluna_prateleira]" value="" title="N&uacute;mero de Colunas Prateleira" />
+            <label for="scp_h0001-nr_max_linha_coluna_item">Nr.Máx.Ítens:</label>
+            <input type="text" id="scp_h0001-nr_max_linha_coluna_item" name="scp_h0001[nr_max_linha_coluna_item]" value="" title="N&uacute;mero M&aacute;ximo de &Iacute;tens na Prateleira" />
+        </div>
+        <div class="linha">
+            <label for="scp_h0001-st_prateleira">Status:</label>
+            <select id="scp_h0001-st_prateleira" name="scp_h0001[st_prateleira]">
+                <option selected value=""></option>
+                <option value="0">Ativo</option>
+                <option value="1">Inativo</option>
+            </select>
+        </div>
+    </div>
+    <div id="scp_h0001-tbl_result" class="linha selecionavel"></div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0001';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+#sga_h0006{width: 500px !important;}
+#sga_h0006 #sga_h0006-f0006 .linha label:first-child {display: inline-block; width: 50px;}
+
+#sga_h0006 #sga_h0006-nr_cnes{width: 55px;}
+#sga_h0006 #sga_h0006-nm_cnes{width: 350px;}
+
+#sga_h0006 #sga_h0006-realupload {
+      cursor: pointer;
+      display: inline-block;
+      float: right;
+      height: 20px !important;
+      opacity:0;
+      position: relative;
+      right: 11px !important;
+      width: 435px !important;
+      top: -21px !important;
+      -moz-opacity:0;
+      filter:alpha(opacity:0);
+}
+
+#sga_h0006 #sga_h0006-fakeupload{
+      width: 431px;
+      background-image: url("/sistema/public/img/botao-selecione.png");
+      background-repeat: no-repeat;
+      cursor: default;
+      background-position: 99% 60%;
+      height: 15px !important;
+}

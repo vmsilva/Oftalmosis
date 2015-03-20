@@ -1,0 +1,15 @@
+.dialog-scp_h0016{width: 800px !important;}
+
+#scp_h0016 #f0016 #scp_h0016-tbl_result{
+    min-height: 100px;
+}
+
+#scp_h0016 #scp_h0016-tbl_result .grid_cabecalho table thead tr th:nth-child(1){min-width: 65px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_cabecalho table thead tr th:nth-child(2){min-width: 300px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_cabecalho table thead tr th:nth-child(3){min-width: 65px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_cabecalho table thead tr th:nth-child(4){min-width: 65px;}
+
+#scp_h0016 #scp_h0016-tbl_result .grid_corpo table tbody tr td:nth-child(1){min-width: 65px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_corpo table tbody tr td:nth-child(2){min-width: 300px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_corpo table tbody tr td:nth-child(3){min-width: 65px;}
+#scp_h0016 #scp_h0016-tbl_result .grid_corpo table tbody tr td:nth-child(4){min-width: 65px;}

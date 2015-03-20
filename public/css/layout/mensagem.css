@@ -1,0 +1,86 @@
+
+/** Mensagems na tela **/
+
+.message-top-close {
+    display: inline-block;
+    float: right;
+    padding: 7px;
+    margin-top: -2px
+}
+
+.message-top-close i {
+    background-image: url("../sistema/public/img/glyphicons-halflings-white.png");
+}
+
+.message-top-close:hover{
+    cursor: pointer;
+}
+.message-top-close:hover i{
+    background-image: url("../sistema/public/img/glyphicons-halflings.png");
+}
+
+/** Fim Mensagens **/
+/** Elementos de validação */
+.valid_err {
+    border: 1px solid red !important;
+}
+
+.ui_erros_tabs {
+    color:yellow;
+    padding-left:2px;
+    padding-right:2px;
+    display:inline-block;
+    margin:4px;
+    background-color:red;
+    border-radius:2px 2px 2px 2px;
+}
+
+/** Mensagens na tela*/
+.valid_err {
+    border: 1px solid red !important;
+}
+
+.ui_erros_tabs {
+    color:yellow;
+    padding-left:2px;
+    padding-right:2px;
+    display:inline-block;
+    margin:4px;
+    background-color:red;
+    border-radius:2px 2px 2px 2px;
+}
+
+.message-content {
+    margin-top: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.message {
+    height: 26px;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999999;
+    /*opacity: 0.6;*/
+    display: none;
+}
+
+.message-error {
+    background-color: #DA4F49;
+    background-image: -moz-linear-gradient(center top, #EE5F5B, #BD362F);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: PapayaWhip;
+}
+
+.message-sucess {
+    background-color: #5BB75B;
+    background-image: -moz-linear-gradient(center top, #62C462, #51A351);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: PapayaWhip;
+}

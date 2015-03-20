@@ -1,0 +1,115 @@
+.dialog-scp_h0007{width: 900px !important;max-width: 900px !important;min-width: 900px !important}
+#scp_h0007 #scp_h0007-f0007 fieldset{
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+#scp_h0007 #scp_h0007-f0007 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#scp_h0007 #scp_h0007-f0007 .linha fieldset label:first-child{
+    display: inline-block;
+    width: 60px;
+    margin-left: 5px !important;
+}
+
+#scp_h0007 #scp_h0007-f0007 .linha fieldset #scp_h0007-tbl_result,
+#scp_h0007 #scp_h0007-f0007 .linha fieldset #scp_h0007-tbl_solic{height: 70px !important; min-height: 70px !important; max-height: 70px !important;}
+
+#scp_h0007 #scp_h0007-f0007 .linha fieldset #scp_h0007-tbl_result table tbody tr td,
+#scp_h0007 #scp_h0007-f0007 .linha fieldset #scp_h0007-tbl_solic table tbody tr td{display: inline-block;}
+
+#scp_h0007 #scp_h0007-f0007 fieldset #scp_h0007-tp_sexo_pac{width: 70px;}
+#scp_h0007 #scp_h0007-f0007 fieldset .linha label[for=scp_h0007-dt_nasc_pac]{margin-left: 126px;}
+#scp_h0007 #scp_h0007-f0007 fieldset #scp_h0007-dt_nasc_pac{width: 60px;}
+
+#scp_h0007 #scp_h0007-f0007 fieldset #scp_h0007-nm_pac,
+#scp_h0007 #scp_h0007-f0007 fieldset #scp_h0007-nm_mae_pac{width: 330px;}
+
+#scp_h0007 #scp_h0007-f0007 fieldset #scp_h0007-nr_prontuario{width: 70px;}
+
+/* Tabela Paciente*/
+/*  Cabeçalho */
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(1){width: 55px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(2){width: 204px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(3){width: 50px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(4){width: 70px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(5){width: 200px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(6){width: 225px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_cabecalho table thead tr th:nth-child(7){width: 5px !important;}
+/*  Corpo */
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(1){width: 59px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(2){width: 204px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(3){width: 50px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(4){width: 65px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(5){width: 196px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(6){width: 170px !important;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo table tbody tr td:nth-child(7){width: 31px !important;}
+
+/* Tabela Solicitação Prontuário */
+
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho {border: 1px solid #DCDCDC; border-bottom: 0px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #th_pro{width: 90px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #th_pac{width: 220px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #th_sex{width: 50px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #th_dtn{width: 70px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #th_mae{width: 190px;}
+#scp_h0007 #scp_h0007-f0007 .linha .grid_cabecalho #td_lnk{width: 15px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .grid_corpo{height: 50px; min-height: 50px; max-height: 50px; overflow-y: scroll;}
+
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic{height: 50px; min-height: 50px; max-height: 50px; overflow-y: scroll; margin-top: 0px;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic table tbody tr{height: 20px;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_pro,
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .td_pro{width: 90px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_pac,
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .td_pac{width: 225px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_sex,
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .td_sex{width: 50px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_dtn,
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .td_dtn{width: 70px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_mae,
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_result .td_mae{width: 250px;}
+
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_lnk{width: 15px;}
+#scp_h0007 #scp_h0007-f0007 .linha #scp_h0007-tbl_solic .td_lnk .link_ex {
+    background: url("./public/img/glyphicons-halflings.png") center;
+    background-position:-311px 2px !important;
+    display: inline-block; 
+    width: 16px; 
+    height: 16px;
+}
+
+.dialog-scp_h0007-div .div-modal .linha label:first-child{
+    display: inline-block;
+    width: 105px;
+}
+
+.dialog-scp_h0007-div .div-modal .linha span{
+    display: inline-block;
+    width: 200px;
+    text-align: justify;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+#scp_h0007 #scp_h0007-f0007 .linha fieldset fieldset .linha span{
+    margin: 3px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    height: 20px; 
+    width: 20px;
+    margin-left: 20px;
+}

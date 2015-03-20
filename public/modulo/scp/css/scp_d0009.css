@@ -1,0 +1,28 @@
+#scp_h0009 #scp_h0009-f0009 .linha label:first-child {
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px !important;
+}
+
+#scp_h0009 #scp_h0009-nr_matr_usu{width: 35px;}
+#scp_h0009 #scp_h0009-nm_usuario{width: 350px;}
+
+#scp_h0009 #scp_h0009-f0009 .linha #scp_h0009-tbl_result #grid-busca-scp_c0007-listaSolicitacaoEmAberto .scp_c0007-listaSolicitacaoEmAberto_1{width: 60px;}
+#scp_h0009 #scp_h0009-f0009 .linha #scp_h0009-tbl_result #grid-busca-scp_c0007-listaSolicitacaoEmAberto .scp_c0007-listaSolicitacaoEmAberto_2{width: 60px;}
+#scp_h0009 #scp_h0009-f0009 .linha #scp_h0009-tbl_result #grid-busca-scp_c0007-listaSolicitacaoEmAberto .scp_c0007-listaSolicitacaoEmAberto_3{width: 50px;}
+#scp_h0009 #scp_h0009-f0009 .linha #scp_h0009-tbl_result #grid-busca-scp_c0007-listaSolicitacaoEmAberto .scp_c0007-listaSolicitacaoEmAberto_4{}
+
+#scp_h0009 #scp_h0009-f0009 .linha #scp_h0009-tbl_result .td_lnk .link_ex {
+    background: url("./public/img/glyphicons-halflings.png") center;
+    background-position:-311px 2px !important;
+    display: block; 
+    width: 16px; 
+    height: 16px;
+}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario{width: 400px !important}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(1){width: 45px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(2){width: 300px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(1){width: 50px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(2){width: 313px;}

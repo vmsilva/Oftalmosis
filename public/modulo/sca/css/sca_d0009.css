@@ -1,0 +1,48 @@
+.dialog-sca_h0009{
+    width: 550px !important; 
+    min-width: 550px !important; 
+    max-width: 550px !important; 
+    height: 600px !important; 
+    min-height: 600px !important; 
+    max-height: 600px !important; 
+}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario{
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 420px;
+    padding: 5px;
+}
+
+.dialog-sca_h0009 #sca_h0009-f0009 label:first-child{
+    display: inline-block;
+    width: 65px;
+}
+
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-cd_empresa{width: 20px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-nm_empresa{width: 420px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-nr_matr_usu{width: 40px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-nm_usuario{width: 378px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-cd_sistema{width: 20px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-nm_sistema{width: 398px;}
+
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario label{display: inline-block; width: 300px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario .s2{}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario .s4{margin-left: 20px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario .s6{margin-left: 40px;}
+.dialog-sca_h0009 #sca_h0009-f0009 #sca_h0009-dv_formulario .s8{margin-left: 40px;}
+
+.dialog-sca_h0009 .botao-acao{margin-top: 15px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario{width: 400px !important}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(1){width: 45px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(2){width: 300px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(1){width: 50px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(2){width: 313px;}
+
+#grid-busca-sca_c0003-ConsultaNomeSistema{width: 400px !important}
+#grid-busca-sca_c0003-ConsultaNomeSistema .grid_cabecalho table thead tr th:nth-child(1){width: 45px;}
+#grid-busca-sca_c0003-ConsultaNomeSistema .grid_cabecalho table thead tr th:nth-child(2){width: 300px;}
+
+#grid-busca-sca_c0003-ConsultaNomeSistema .grid_corpo table tbody tr td:nth-child(1){width: 50px;}
+#grid-busca-sca_c0003-ConsultaNomeSistema .grid_corpo table tbody tr td:nth-child(2){width: 313px;}

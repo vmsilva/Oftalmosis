@@ -1,0 +1,41 @@
+<div id="scp_h0003" class="janela">
+    <div id="scp_h0003-f0003">
+        <div class="linha">
+            <label>Prateleira:</label>
+            <select id="scp_h0003-lt_prat_disp" name="scp_h0003[lt_prat_disp]"><option selected></option></select>
+            <button type="button" name="scp_h0003[btn_lista_prateleira]" id="scp_h0003-btn_lista_prateleira" class="refresh" title="Clique no botão para listar informação"></button>
+            <label for="scp_h0003-nr_total">Total:</label>
+            <input type="text" id="scp_h0003-nr_total" name="scp_h0003[nr_total]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es" readonly/>
+            <label for="scp_h0003-nr_livre">Livre:</label>
+            <input type="text" id="scp_h0003-nr_livre" name="scp_h0003[nr_livre]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es Livre" readonly/>
+            <label for="scp_h0003-nr_utilizada">Alocado:</label>
+            <input type="text" id="scp_h0003-nr_utilizada" name="scp_h0003[nr_utilizada]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es Utilizada" readonly/>
+        </div>
+        <div id="scp_h0003-tbl_result">
+        </div>
+        <input type="hidden" id="scp_h0003-cd_prateleira_aux" />
+        <input type="hidden" id="scp_h0003-nr_linha_aux" />
+        <input type="hidden" id="scp_h0003-nr_coluna_aux" />
+        <div class="linha">
+            
+            <label>Operação:</label>
+            <select id="scp_h0003-in_opr_locacao" name="scp_h0003[in_opr_locacao]">
+                <option selected></option>
+                <option value="0">Adição</option>
+                <option value="1">Subtração</option>
+            </select>
+            <label for="scp_h0003-nr_total_man">Total a Manipular:</label>
+            <input type="text" id="scp_h0003-nr_total_man" name="scp_h0003[nr_total_man]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es a ser Alterada" />
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0003';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

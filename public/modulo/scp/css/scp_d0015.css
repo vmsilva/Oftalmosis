@@ -1,0 +1,29 @@
+.dialog-scp_h0015{width: 800px !important;}
+
+#scp_h0015 #f0015 .linha #scp_h0015-nr_matr_usu{width: 35px;}
+#scp_h0015 #f0015 .linha #scp_h0015-nm_usuario{width: 299px;}
+#scp_h0015 #f0015 #scp_h0015-tbl_result,
+#scp_h0015 #f0015 #scp_h0015-tbl_result_transf{
+    min-height: 100px;
+}
+
+
+#scp_h0015 #scp_h0015-tbl_result .grid_cabecalho table thead tr th:nth-child(1){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_cabecalho table thead tr th:nth-child(2){min-width: 300px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_cabecalho table thead tr th:nth-child(3){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_cabecalho table thead tr th:nth-child(4){min-width: 65px;}
+
+#scp_h0015 #scp_h0015-tbl_result .grid_corpo table tbody tr td:nth-child(1){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_corpo table tbody tr td:nth-child(2){min-width: 300px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_corpo table tbody tr td:nth-child(3){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result .grid_corpo table tbody tr td:nth-child(4){min-width: 65px;}
+
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_cabecalho table thead tr th:nth-child(1){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_cabecalho table thead tr th:nth-child(2){min-width: 300px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_cabecalho table thead tr th:nth-child(3){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_cabecalho table thead tr th:nth-child(4){min-width: 65px;}
+
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_corpo table tbody tr td:nth-child(1){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_corpo table tbody tr td:nth-child(2){min-width: 300px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_corpo table tbody tr td:nth-child(3){min-width: 65px;}
+#scp_h0015 #scp_h0015-tbl_result_transf .grid_corpo table tbody tr td:nth-child(4){min-width: 65px;}

@@ -1,0 +1,29 @@
+<div id="sga_h0018" class="janela">
+    <div id="sga_h0018-f0018">
+        <div class="linha">
+            <label for="sga_h0018-cd_serv_painel">Serviço:</label>
+            <select id="sga_h0018-cd_serv_painel" name="sga_h0018[cd_serv_painel]"></select>
+            <label for="sga_h0018-in_chamada_pref">Situação:</label>
+            <select id="sga_h0018-in_chamada_pref" name="sga_h0018[in_chamada_pref]">
+                <option></option>
+                <option value="R">Rotina</option>
+                <option value="P">Prioritário</option>
+            </select>
+        </div>
+        <div class="linha">
+            <label for="sga_h0018-in_nome_pac">Paciente:</label>
+            <input type="text" id="sga_h0018-in_nome_pac" name="sga_h0018[in_nome_pac]" value="" title="Informe Nome Paciente" />
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sga_h0018';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>
+<div id="divPopUp" align="center"></div>

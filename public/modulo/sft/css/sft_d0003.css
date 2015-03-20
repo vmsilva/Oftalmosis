@@ -1,0 +1,75 @@
+.dialog-sft_h0003{width: 800px !important;}
+
+#sft_h0003 #sft_h0003-f0003 .linha label{
+    display: inline-block;
+    width: 100px;
+}
+
+#sft_h0003 #sft_h0003-f0003 .linha #sft_h0003-dt_atend{width: 60px;}
+#sft_h0003 #sft_h0003-f0003 .linha #sft_h0003-cb_profs{width: 350px;}
+#sft_h0003 #sft_h0003-f0003 .linha #sft_h0003-cb_espld_medc{width: 350px;}
+
+#sft_h0003 #sft_h0003-tbl_result .grid_cabecalho table thead tr th:nth-child(1),
+#sft_h0003 #sft_h0003-tbl_atend .grid_cabecalho table thead tr th:nth-child(1){width: 60px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_cabecalho table thead tr th:nth-child(2),
+#sft_h0003 #sft_h0003-tbl_atend .grid_cabecalho table thead tr th:nth-child(2){width: 300px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_cabecalho table thead tr th:nth-child(3),
+#sft_h0003 #sft_h0003-tbl_atend .grid_cabecalho table thead tr th:nth-child(3){width: 50px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_cabecalho table thead tr th:nth-child(4),
+#sft_h0003 #sft_h0003-tbl_atend .grid_cabecalho table thead tr th:nth-child(4){width: 120px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_cabecalho table thead tr th:nth-child(5),
+#sft_h0003 #sft_h0003-tbl_atend .grid_cabecalho table thead tr th:nth-child(5){width: 70px !important;}
+
+#sft_h0003 #sft_h0003-tbl_result .grid_corpo table tbody tr td:nth-child(1),
+#sft_h0003 #sft_h0003-tbl_atend .grid_corpo table tbody tr td:nth-child(1){width: 60px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_corpo table tbody tr td:nth-child(2),
+#sft_h0003 #sft_h0003-tbl_atend .grid_corpo table tbody tr td:nth-child(2){width: 302px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_corpo table tbody tr td:nth-child(3),
+#sft_h0003 #sft_h0003-tbl_atend .grid_corpo table tbody tr td:nth-child(3){width: 50px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_corpo table tbody tr td:nth-child(4),
+#sft_h0003 #sft_h0003-tbl_atend .grid_corpo table tbody tr td:nth-child(4){width: 263px !important;}
+#sft_h0003 #sft_h0003-tbl_result .grid_corpo table tbody tr td:nth-child(5),
+#sft_h0003 #sft_h0003-tbl_atend .grid_corpo table tbody tr td:nth-child(5){width: 30px !important;}
+
+.dialog-sft_h0003-div .div-modal .linha label:first-child{
+    display: inline-block;
+    width: 105px;
+}
+
+.dialog-sft_h0003-div .div-modal .linha span{
+    display: inline-block;
+    width: 200px;
+    text-align: justify;
+    padding: 3px;
+    margin-top: 3px;
+}
+
+#sft_h0003 #sft_h0003-f0003 .linha fieldset fieldset .linha span{
+    margin: 3px; 
+    border-radius: 10px; 
+    display: inline-block; 
+    height: 20px; 
+    width: 20px;
+    margin-left: 20px;
+}
+
+#sft_ha014-fa014 label:first-child,
+.dialog-sft_ha014 fieldset label:first-child{display: inline-block; width: 40px;}
+
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-lbl_dt_nasc_pac_aux,
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-lbl_cns_pac_aux{margin-left: 3px;}
+
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-tp_sexo_pac_aux,
+.dialog-sft_ha014 fieldset .linha #sft_fa014-tp_sexo_pac{width: 80px;}
+
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-dt_nasc_pac_aux,
+.dialog-sft_ha014 fieldset .linha #sft_fa014-dt_nasc_pac{width: 60px;}
+
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-nr_cns_pac_aux{width: 90px;}
+
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-nm_pac_aux,
+#sft_ha014-fa014 #sft_fa014 .linha #fa014-nm_mae_pac_aux,
+.dialog-sft_ha014 fieldset .linha #sft_fa014-nm_pac,
+.dialog-sft_ha014 fieldset .linha #sft_fa014-nm_mae_pac{width: 350px}
+
+.dialog-sft_ha014 fieldset .linha fieldset{width: 420px}

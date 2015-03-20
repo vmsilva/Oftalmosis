@@ -1,0 +1,83 @@
+<div id="scp_h0007" class="janela">
+    <div id="scp_h0007-f0007">
+        <div class="linha">
+            <fieldset>
+                <legend>Pesquisa Paciente</legend>
+                <div class="linha">
+                    <label for="scp_h0007-tp_sexo_pac">Sexo:</label>
+                    <select id="scp_h0007-tp_sexo_pac" name="scp_h0007[tp_sexo_pac]" title="Sexo Paciente">
+                        <option selected value=""></option>
+                        <option value="F">Feminino</option>
+                        <option value="M">Masculino</option>
+                    </select>
+                    <label for="scp_h0007-dt_nasc_pac">Dt.Nasc.:</label>
+                    <input type="text" id="scp_h0007-dt_nasc_pac" name="scp_h0007[dt_nasc_pac]" value="" title="Data de Nascimento"/>
+                </div>
+                <div class="linha">
+                    <label for="scp_h0007-nm_pac">Nome:</label>
+                    <input type="hidden" id="scp_h0007-cd_pac" name="scp_h0007[cd_pac]" value="" title="Codigo Aluno"/>
+                    <input type="text" id="scp_h0007-nm_pac" name="scp_h0007[nm_pac]" value="" title="Nome Aluno"/>
+                </div>
+                <div class="linha">
+                    <label for="scp_h0007-nm_mae_pac">Mãe:</label>
+                    <input type="text" id="scp_h0007-nm_mae_pac" name="scp_h0007[nm_mae_pac]" value="" title="Nome M&atilde;e Aluno"/>
+                </div>
+                <div class="linha">
+                    <div id="scp_h0007-tbl_result" class="linha selecionavel"></div>
+                </div>
+                <fieldset>
+                    <legend>Legenda</legend>
+                    <div class="linha">
+                        <span class="alocado"></span>
+                        <label>Não Alocado</label>
+                        <span class="liberado"></span>
+                        <label>Liberado/Alocado</label>
+                        <span class="movimento"></span>
+                        <label>Em Movimentação</label>
+                        <span class="bloqueado"></span>
+                        <label>Bloqueado</label>
+                    </div>
+                </fieldset>
+            </fieldset>
+        </div>
+        <div class="linha">
+            <fieldset>
+                <legend>Prontu&aacute;rio(s) Paciente(s) Solicitado(s)</legend>
+                <div class="linha">
+                    <label for="scp_h0007-nr_prontuario">Nr. Pront.:</label>
+                    <input type="text" id="scp_h0007-nr_prontuario" name="scp_h0007[nr_prontuario]" value="" title="C&oacute;digo Prontu&aacute;rio Paciente" />
+                </div>
+                <div class="linha">
+                    <div class="grid_cabecalho">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th id='th_pro'>Prontuário</th>
+                                    <th id='th_pac'>Paciente</th>
+                                    <th id='th_sex'>Sexo</th>
+                                    <th id='th_dtn'>Dt.Nasc.</th>
+                                    <th id='th_mae'>Mãe</th>
+                                    <th id='th_lnk'>&nbsp</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                    <div id="scp_h0007-tbl_solic" class="linha selecionavel">
+                        <table>
+                            <tbody class='grid_corpo'></tbody>
+                        </table>
+                    </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0007';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

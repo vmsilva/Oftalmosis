@@ -1,0 +1,137 @@
+.dialog-smg_h0014{width: 845px !important;}
+
+.dialog-smg_h0014 .div-modal{width: 820px !important;}
+
+#smg_h0014 #dv_busca_pac_loc{
+    border: 1px solid #DCDCDC;
+    padding: 5px;
+    height: 112px;
+    width: 500px;
+}
+
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc{
+    clear: both;
+    float: left;
+}
+
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_opr{
+    float: right;
+    display: inline-block;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_opr .linha button{width: 125px;}
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha label:first-child {
+    display: inline-block;
+    width: 40px;
+}
+
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha #dv_dados_pac_loc-tp_sexo_pac_loc{width: 80px;}
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha label[for=dv_dados_pac_loc-dt_nasc_pac_loc]{margin-left: 65px !important;}
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha #dv_dados_pac_loc-dt_nasc_pac_loc{width: 85px;}
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha #dv_dados_pac_loc-nm_pac_loc,
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha #dv_dados_pac_loc-nm_mae_pac_loc{width: 300px;}
+#smg_h0014 #dv_busca_pac_loc #dv_dados_pac_loc .linha #dv_dados_pac_loc-nr_cns_pac{width: 95px;}
+
+#smg_h0014 #smg_h0014-tbl_result{
+    border: 1px solid #DCDCDC;
+    height: 200px !important;
+    min-height: 200px !important;
+    width: 800px !important;
+}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo{
+    min-height: 172px;
+    height: 172px !important;
+    overflow-y: scroll;
+}
+
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_cabecalho table thead tr #smg_c0014-consultaNomePaciente_1{width: 100px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_cabecalho table thead tr #smg_c0014-consultaNomePaciente_2{width: 300px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_cabecalho table thead tr #smg_c0014-consultaNomePaciente_3{width: 20px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_cabecalho table thead tr #smg_c0014-consultaNomePaciente_4{width: 80px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_cabecalho table thead tr #smg_c0014-consultaNomePaciente_5{width: 300px !important;}
+
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo table tbody tr .smg_c0014-consultaNomePaciente_1{width: 96px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo table tbody tr .smg_c0014-consultaNomePaciente_2{width: 280px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo table tbody tr .smg_c0014-consultaNomePaciente_3{width: 20px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo table tbody tr .smg_c0014-consultaNomePaciente_4{width: 80px !important;}
+#smg_h0014 #smg_h0014-tbl_result #grid-busca-smg_c0014-consultaNomePaciente .grid_corpo table tbody tr .smg_c0014-consultaNomePaciente_5{width: 258px !important;}
+
+.dialog-smg_h0014 #smg_h0014 #smg_h0014-f0014,.dialog-smg_h0014 #smg_h0014 .linha #smg_h0014-botao-acao{display: none; width: 470px;margin-left: 170px}
+
+#smg_h0014 #smg_h0014-f0014 fieldset{
+    border: 1px solid #DCDCDC;
+}
+
+#smg_h0014 #smg_h0014-f0014 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#smg_h0014 #smg_h0014-f0014 .linha label:first-child {
+    display: inline-block;
+    width: 75px;
+    margin-left: 10px;
+}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_prontuario_pac{width: 70px;}
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-nr_cns_pac]{margin-left: 124px;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_cns_pac{width: 105px;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_mae_pac{width: 350px;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-tp_sexo_pac{width: 80px;}
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-dt_nasc_pac]{margin-left: 134px !important;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-dt_nasc_pac{width: 70px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-cd_pais_orig_pac{width: 20px;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_pais_orig_pac{width: 300px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-cd_munic_nasc_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-cd_munic_nasc_mae_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-cd_munic_pac{width: 40px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-sg_uf_nasc_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-sg_uf_nasc_mae_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-sg_uf_pac{width: 40px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_munic_nasc_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_munic_nasc_mae_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_munic_pac{width: 237px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nm_bairro_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-ds_logr_pac{width: 350px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_cep_pac{width: 60px;}
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-ds_compl_pac]{margin-left: 15px;}
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-ds_compl_pac{width: 173px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-ds_lt_pac],
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-nr_pac]{margin-left: 100px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-ds_qd_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-ds_lt_pac,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_pac{width: 30px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-nr_fone_pac_02],
+#smg_h0014 #smg_h0014-f0014 .linha label[for=smg_h0014-nr_fone_pac_03]{margin-left: 5px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_fone_pac_01,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_fone_pac_02,
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-nr_fone_pac_03{width: 80px;}
+
+#smg_h0014 #smg_h0014-f0014 .linha #smg_h0014-ds_email_pac{width: 350px;}
+
+#grid-busca-sgm_c0001-consultaNomePais{width: 300px;}
+
+#grid-busca-sgm_c0003-consultaNomeMunicipio{width: 300px; display: inline-table}
+#grid-busca-sgm_c0003-consultaNomeMunicipio .grid_cabecalho thead tr #sgm_c0003-consultaNomeMunicipio_1{width: 40px !important;}
+#grid-busca-sgm_c0003-consultaNomeMunicipio .grid_cabecalho thead tr #sgm_c0003-consultaNomeMunicipio_2{width: 190px !important;}
+
+#grid-busca-sgm_c0003-consultaNomeMunicipio .grid_corpo tbody tr .sgm_c0003-consultaNomeMunicipio_1{width: 40px !important;}
+#grid-busca-sgm_c0003-consultaNomeMunicipio .grid_corpo tbody tr .sgm_c0003-consultaNomeMunicipio_2{width: 200px !important;}
+#grid-busca-sgm_c0003-consultaNomeMunicipio .grid_corpo tbody tr .sgm_c0003-consultaNomeMunicipio_3{width: 30px !important;}

@@ -1,0 +1,11 @@
+#sga_h0018{width: 500px !important;}
+#sga_h0018 #sga_h0018-f0018 .linha label:first-child {display: inline-block; width: 50px;}
+
+#sga_h0018 #sga_h0018-cd_serv_painel{width: 200px;}
+#sga_h0018 label[for="sga_h0018-in_chamada_pref"]{
+    margin-left: 15px;
+    display: inline-block;
+    width: 50px;
+}
+#sga_h0018 #sga_h0018-in_chamada_pref{width: 80px;}
+#sga_h0018 #sga_h0018-in_nome_pac{width: 345px;}

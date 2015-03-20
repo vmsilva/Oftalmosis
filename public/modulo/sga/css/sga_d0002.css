@@ -1,0 +1,40 @@
+#sga_h0002-f0002 label:first-child{display: inline-block; width: 100px;}
+#sga_h0002-f0002 #sga_h0002-cd_grp_consulta{width: 30px;}
+#sga_h0002-f0002 #sga_h0002-nm_grp_consulta{width: 345px;}
+
+#sga_h0002-f0002 #sga_h0002-cd_procd_medc{width: 75px;}
+#sga_h0002-f0002 #sga_h0002-nm_procd_medc{width: 300px;}
+
+#sga_h0002-f0002 #sga_h0002-vl_sa_cont{width: 50px;}
+#sga_h0002-f0002 label[for="sga_h0002-nr_qtde_procd_medc"]{
+    display: inline-block;
+    width: 30px;
+    margin-left: 26px;
+}
+#sga_h0002-f0002 #sga_h0002-nr_qtde_procd_medc{width: 30px;}
+
+#sga_h0002 #sga_h0002-f0002 .linha .grid_cabecalho {border: 1px solid #DCDCDC; border-bottom: 0px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_cabecalho #sga_c0002-listar_1{width: 120px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_cabecalho #sga_c0002-listar_2{width: 320px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_cabecalho #sga_c0002-listar_3{width: 50px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_cabecalho #sga_c0002-listar_4{width: 70px;}
+
+#sga_h0002 #sga_h0002-f0002 .linha .grid_corpo  {margin: 0px; overflow: auto; height: 150px; max-height: 150px; margin-bottom: 10px; border: 1px solid #DCDCDC;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_corpo   .sga_c0002-listar_1{width: 120px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_corpo   .sga_c0002-listar_2{width: 320px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_corpo   .sga_c0002-listar_3{width: 50px;}
+#sga_h0002 #sga_h0002-f0002 .linha .grid_corpo   .sga_c0002-listar_4{width: 50px;}
+
+#grid-busca-sga_h0002-consultaNome{width: 400px !important}
+#grid-busca-sga_h0002-consultaNome .grid_cabecalho table thead tr th:nth-child(1){width: 40px;}
+#grid-busca-sga_h0002-consultaNome .grid_cabecalho table thead tr th:nth-child(2){width: 380px;}
+
+#grid-busca-sga_h0002-consultaNome .grid_corpo table tbody tr td:nth-child(1){width: 45px;}
+#grid-busca-sga_h0002-consultaNome .grid_corpo table tbody tr td:nth-child(2){width: 400px;}
+
+#grid-busca-sga_c0002-buscanomeprocedimento{width: 500px !important}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_cabecalho table thead tr th:nth-child(1){width: 60px;}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_cabecalho table thead tr th:nth-child(2){width: 250px;}
+
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_corpo table tbody tr td:nth-child(1){width: 90px;}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_corpo table tbody tr td:nth-child(2){width: 310px;}

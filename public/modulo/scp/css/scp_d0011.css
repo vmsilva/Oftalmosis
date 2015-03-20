@@ -1,0 +1,40 @@
+.dialog-scp_h0011{height: 340px !important;}
+
+#scp_h0011 #scp_h0011-f0011 .linha label:first-child {
+    display: inline-block;
+    width: 100px;
+    margin-left: 5px !important;
+}
+
+#scp_h0011 #scp_h0011-nr_matr_usu{width: 35px;}
+#scp_h0011 #scp_h0011-nm_usuario{width: 350px;}
+
+#scp_h0011 #scp_h0011-f0011 .linha .grid_cabecalho {border: 1px solid #DCDCDC; border-bottom: 0px;}
+#scp_h0011 #scp_h0011-f0011 .linha .grid_cabecalho #th_pro{width: 90px;}
+#scp_h0011 #scp_h0011-f0011 .linha .grid_cabecalho #th_pac{width: 220px;}
+#scp_h0011 #scp_h0011-f0011 .linha .grid_cabecalho #th_mot{width: 220px;}
+
+#scp_h0011 #scp_h0011-f0011 .linha #scp_h0011-tbl_result {margin: 0px; overflow: auto; height: 150px; max-height: 150px; margin-bottom: 10px;  border: 1px solid #DCDCDC;}
+#scp_h0011 #scp_h0011-f0011 .linha #scp_h0011-tbl_result .td_pro{width: 90px;}
+#scp_h0011 #scp_h0011-f0011 .linha #scp_h0011-tbl_result .td_pac{width: 220px;}
+#scp_h0011 #scp_h0011-f0011 .linha #scp_h0011-tbl_result .td_mot{width: 200px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario{width: 400px !important}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(1){width: 45px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_cabecalho table thead tr th:nth-child(2){width: 300px;}
+
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(1){width: 50px;}
+#grid-busca-sca_c0002-ConsultaNomeUsuario .grid_corpo table tbody tr td:nth-child(2){width: 313px;}
+
+#scp_h0011 #scp_h0011-txt_pesquisa{width: 350px; float: right}
+
+#scp_h0011 #scp_h0011-btn-pesquisa{
+    float: right;
+    border-radius:4px 0 0 4px;
+    margin-right: -1px;
+}
+
+#scp_h0011 .botao-acao{
+    padding-top: 5px;
+}
+

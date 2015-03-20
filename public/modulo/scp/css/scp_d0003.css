@@ -1,0 +1,30 @@
+
+#scp_h0003 #scp_h0003-f0003 .linha label:first-child {
+    display: inline-block;
+    width: 50px;
+    margin-left: 5px !important;
+}
+
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-lt_prat_disp{width: 40px;}
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-nr_total{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-nr_livre{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-nr_utilizada{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0003 #scp_h0003-f0003 .linha label[for=scp_h0003-nr_total],
+#scp_h0003 #scp_h0003-f0003 .linha label[for=scp_h0003-nr_livre],
+#scp_h0003 #scp_h0003-f0003 .linha label[for=scp_h0003-nr_utilizada]{margin-left: 40px;}
+
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-in_opr_locacao{width: 80px;}
+#scp_h0003 #scp_h0003-f0003 .linha label[for=scp_h0003-nr_total_man]{margin-left: 40px;}
+#scp_h0003 #scp_h0003-f0003 .linha #scp_h0003-nr_total_man{width: 40px; margin-left: 2px; text-align: right}
+
+#scp_h0003 #scp_h0003-tbl_result{border: 1px solid #DCDCDC; min-width: 500px !important; max-width: 900px; min-height: 200px !important; max-height: 400px !important; overflow: auto;}
+#scp_h0003 #scp_h0003-tbl_result tr td{text-align: center; padding: 3px; cursor: pointer; color: #fff; border-collapse: collapse; border: 1px solid #fff}
+#scp_h0003 #scp_h0003-tbl_result tr td label{font-size: 11px !important; cursor: pointer; display: block}
+#scp_h0003 #scp_h0003-tbl_result .dv_nm_prateleira{background-color: #d9d9d9; color: #666; font-size: 13px; text-align: center; width: 100%}
+#scp_h0003 #scp_h0003-tbl_result tr .td_azul{background-color: #5F9FD3;}
+#scp_h0003 #scp_h0003-tbl_result tr .td_amarelo{background-color: #FFFA6B; color:#000000;}
+#scp_h0003 #scp_h0003-tbl_result tr .td_vermelho{background-color: #ff0000;}
+#scp_h0003 #scp_h0003-tbl_result label{font-size: 9px; padding: 2px;}
+#scp_h0003 table tr td.selecionado{background-color: #212121 !important; color: #FFFFFF !important}
+
+#scp_h0003 .botao-acao{margin-top: 5px !important}

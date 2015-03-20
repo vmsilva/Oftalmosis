@@ -1,0 +1,58 @@
+.dialog-scp_h0018{width: 800px !important;}
+
+#scp_h0018 #scp_h0018-f0018 .linha label{
+    display: inline-block;
+    width: 60px;
+}
+
+#scp_h0018 #scp_h0018-f0018 .linha #scp_h0018-nr_prontuario{width: 65px;}
+
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente{
+    margin-top: 15px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente{
+    border: 1px solid #DCDCDC;
+    height: 85px;
+    padding: 5px;
+    width: 390px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac {
+    clear: both;
+    float: left;
+    height: 85px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha label:first-child {
+    display: inline-block;
+    width: 35px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-tp_sexo_pac {
+    background-color: #E8E8E8;
+    width: 60px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-lbl_dt_nasc_pac, 
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-lbl_cns_pac {
+    margin-left: 1px !important;
+    display: inline;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-dt_nasc_pac {
+    background-color: #E8E8E8;
+    width: 60px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-nr_cns_pac {
+    background-color: #E8E8E8;
+    width: 98px;
+}
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-nm_pac, 
+#scp_h0018 #scp_h0018-f0018 #buscaPaciente #buscapac .linha #scp_h0018-nm_mae_pac {
+    background-color: #E8E8E8;
+    width: 330px;
+}
+
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_1{width: 60px;}
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_2{width: 60px;}
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_3{width: 200px;}
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_4{width: 60px;}
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_5{width: 60px;}
+#scp_h0018-tbl_result .scp_c0018-historicoprontuario_6{width: 80px;}
+
+#scp_h0018-tbl_result{margin-bottom: 15px;}

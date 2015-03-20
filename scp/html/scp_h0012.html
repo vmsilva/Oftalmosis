@@ -1,0 +1,17 @@
+<div id="scp_h0012" class="janela">
+    <div id="scp_h0012-f0012">
+        <div class="linha">
+            <div id="scp_h0012-tbl_result" class="linha selecionavel"></div>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0012';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

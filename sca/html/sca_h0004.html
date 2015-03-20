@@ -1,0 +1,38 @@
+<div id="sca_h0004" class="janela">
+    <div id="f0004">
+        <div class="linha">
+            <label for="cd_sistema">Sistema:</label>
+            <input type="text" id="cd_sistema" name="cd_sistema" value="" title="Código Sistema"/>
+            <input type="text" id="nm_sistema" name="nm_sistema" value="" title="Nome Sistema"/>
+            <button type="button" name="btn_lista_sistema" id="btn_lista_sistema" class="buscar" title="Clique no botão para buscar informação"></button>
+        </div>
+        <div class="linha">
+            <label for="cd_formulario">Formulário:</label>
+            <input type="text" id="cd_formulario" name="cd_formulario" value="" title="Código Formulário"/>
+            <input type="text" id="nm_formulario" name="nm_formulario" value="" title="Nome Formulário"/>
+            <button type="button" name="btn_lista_formulario" id="btn_lista_formulario" class="buscar" title="Clique no botão para buscar informação"></button>
+        </div>
+        <div class="linha">
+            <label for="ar_formulario">Arquivo:</label>
+            <input type="text" id="ar_formulario" name="ar_formulario" value="" title="Arquivo Formulário"/>
+            <label for="in_hier_form">Hierárquia:</label>
+            <input type="text" id="in_hier_form" name="in_hier_form" value="" title="Hierárquia no Menu do Formulário"/>
+            <label for="st_formulario">Status:</label>
+            <select id="st_formulario" name="st_formulario">
+                <option selected value=""></option>
+                <option value="0">Ativo</option>
+                <option value="1">Inativo</option>
+            </select>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sca_h0004';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

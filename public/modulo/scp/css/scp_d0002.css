@@ -1,0 +1,68 @@
+#scp_h0002 #scp_h0002-f0002 .linha label:first-child {
+    display: inline-block;
+    width: 50px;
+    margin-left: 5px !important;
+}
+
+#scp_h0002 #scp_h0002-f0002 .linha label[for="scp_h0002-nr_prontuario"]{display: inline-block;
+    width: 105px;
+    margin-left: 5px !important;}
+
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nr_prontuario{width: 70px;}
+#scp_h0002 #scp_h0002-f0002 .linha hr{border: 1px solid gray}
+#scp_h0002 #scp_h0002-f0002 fieldset{
+    border: 1px solid #DCDCDC;
+    padding-left: 5px;
+    width: 410px;
+    margin-bottom: 3px;
+}
+
+#scp_h0002 #scp_h0002-f0002 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#scp_h0002 #scp_h0002-f0002 .dv_quadro{
+    display: block;
+    float: left;
+}
+
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_esquerda{width: 435px;}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita{border-left: 2px solid gray; padding-left: 5px;}
+
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-tp_sexo_pac{width: 60px; background-color: #E8E8E8}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-lbl_dt_nasc_pac,
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-lbl_cns_pac{margin-left: 1px;}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-dt_nasc_pac{width: 60px; background-color: #E8E8E8}
+
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nr_cns_pac{width: 98px; background-color: #E8E8E8}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nm_pac,
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nm_mae_pac{width: 330px; background-color: #E8E8E8}
+
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-lt_prat_disp{width: 40px;}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nr_total{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nr_livre{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0002 #scp_h0002-f0002 .linha #scp_h0002-nr_utilizada{width: 40px; margin-left: 2px; text-align: right}
+#scp_h0002 #scp_h0002-f0002 .linha label[for=scp_h0003-nr_total],
+#scp_h0002 #scp_h0002-f0002 .linha label[for=scp_h0003-nr_livre],
+#scp_h0002 #scp_h0002-f0002 .linha label[for=scp_h0003-nr_utilizada]{margin-left: 40px;}
+
+#scp_h0002 #scp_h0002-tbl_result #grid-busca-scp_c0004-listaProntuarioAntigo .grid_corpo{height: 80px; min-height: 80px; max-height: 80px;}
+#scp_h0002 #scp_h0002-tbl_result #grid-busca-scp_h0004-listaProntuarioAntigo .grid_corpo table tbody tr .scp_h0002-listaProntuarioAntigo_1{width: 70px}
+#scp_h0002 #scp_h0002-tbl_result #grid-busca-scp_h0004-listaProntuarioAntigo .grid_corpo table tbody tr .scp_h0002-listaProntuarioAntigo_2{width: 70px}
+#scp_h0002 #scp_h0002-tbl_result #grid-busca-scp_h0004-listaProntuarioAntigo .grid_corpo table tbody tr .scp_h0002-listaProntuarioAntigo_3{width: 70px}
+#scp_h0002 #scp_h0002-tbl_result #grid-busca-scp_h0004-listaProntuarioAntigo .grid_corpo table tbody tr .scp_h0002-listaProntuarioAntigo_4{}
+
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat{border: 1px solid #DCDCDC; min-width: 500px !important; max-width: 900px; min-height: 200px !important; max-height: 400px !important; overflow: auto;}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat tr td{text-align: center; padding: 3px; cursor: pointer; color: #fff; border-collapse: collapse; border: 1px solid #fff}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat tr td label{font-size: 11px !important; cursor: pointer; display: block}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat .dv_nm_prateleira{background-color: #d9d9d9; color: #666; font-size: 13px; text-align: center; width: 100%}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat tr .td_azul{background-color: #5F9FD3;}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat tr .td_amarelo{background-color: #FFFA6B; color:#000000;}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat tr .td_vermelho{background-color: #ff0000;}
+#scp_h0002 #scp_h0002-f0002 .dv_quadro #dv_direita #scp_h0002-tbl_result_prat label{font-size: 9px; padding: 2px;}
+#scp_h0002 table tr td.selecionado{background-color: #212121 !important; color: #FFFFFF !important}

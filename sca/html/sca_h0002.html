@@ -1,0 +1,63 @@
+<div id="sca_h0002" class="janela">
+    <div id="f0002">
+        <div class="linha">
+        <label for="sca_h0002-nr_matr_usu">Usu&aacute;rio:</label>
+        <input type="hidden" id="sca_h0002-cd_usuario" name="sca_h0002[cd_usuario]" value=""/>
+        <input type="text" id="sca_h0002-nr_matr_usu" name="sca_h0002[nr_matr_usu]" value="" title="Matr&iacute;cula Usu&aacute;rio"/>
+        <input type="text" id="sca_h0002-nm_usuario" name="sca_h0002[nm_usuario]" value="" title="Nome Usu&aacute;rio"/>
+        <button type="button" name="sca_h0002[btn_lista_usuario]" id="sca_h0002-btn_lista_usuario" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+        <label for="sca_h0002-dt_nasc_usu">Data Nasc.:</label>
+        <input type="text" id="sca_h0002-dt_nasc_usu" name="sca_h0002[dt_nasc_usu]" value="" title="Data Nascimento"/>
+        <label for="sca_h0002-nr_tel_usu">Telefone:</label>
+        <input type="text" id="sca_h0002-nr_tel_usu" name="sca_h0002[nr_tel_usu]" value="" title="N&uacute;mero Telefone"/>
+        <label for="sca_h0002-dt_exp_snh_usu">Data Expir.:</label>
+        <?php 
+            $dataExpiracao = (date("Ymd", strtotime("60 days")));
+            $dataExpiracao = substr($dataExpiracao,6,2).'/'.substr($dataExpiracao,4,2).'/'.substr($dataExpiracao,0,4)
+        ?>
+        <input type="text" id="sca_h0002-dt_exp_snh_usu" name="sca_h0002[dt_exp_snh_usu]" value="<?php echo $dataExpiracao;?>" title="Data de expira&ccedil;&atilde;o da senha" disabled="disabled"/>
+        </div>
+        <div class="linha">
+        <label for="sca_h0002-ds_email_usu">E-mail:</label>
+        <input type="text" id="sca_h0002-ds_email_usu" name="sca_h0002[ds_email_usu]" value="" title="Descri&ccedil;&atilde;o do e-mail"/>
+        </div>
+        <div class="linha">
+            <label for="sca_h0002-tp_perm_usu">Permiss&atilde;o:</label>
+            <select id="sca_h0002-tp_perm_usu" name="sca_h0002[tp_perm_usu]" title="Tipo Permiss&atilde;o">
+                <option value=""></option>
+                <option value="0">Usu&aacute;rio</option>
+                <option value="1">Administrador</option>
+            </select>
+            <label id='sca_h0002-lbl_st_usuario' for="sca_h0002-st_usuario">Status:</label>
+            <select id="sca_h0002-st_usuario" name="sca_h0002[st_usuario]" title="Status Usu&aacute;rio">
+                <option value=""></option>
+                <option value="0">Ativo</option>
+                <option value="1">Inativo</option>
+                <option value="2">Primeiro Acesso</option>
+            </select>
+        </div>
+        <div class="linha">
+            <label for="sca_h0002-nr_cpf">CPF:</label>
+            <input type="text" id="sca_h0002-nr_cpf" name="sca_h0002[nr_cpf]" value="" title="N&uacute;mero CPF"/>
+            <button type="button" name="sca_h0002[btn_lista_cpf]" id="sca_h0002-btn_lista_cpf" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <!--div class="linha">
+            <label id='sca_h0002-lbl_cd_prof' for="sca_h0002-nm_prof">Profissional:</label>
+            <input type="hidden" id="sca_h0002-cd_prof" name="cd_prof" value="" title="C&oacute;digo Profissional" />
+            <input type="text" id="sca_h0002-nm_prof" name="nm_prof" value="" title="Nome Profissional" />
+            <button type="button" name="btn_lista_prof" id="sca_h0002-btn_lista_prof" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div-->
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sca_h0002';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

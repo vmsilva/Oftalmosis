@@ -1,0 +1,20 @@
+
+#sga_h0001-f0001 label:first-child{display: inline-block; width: 100px;}
+#sga_h0001-f0001 #sga_h0001-cd_grp_consulta{width: 30px;}
+#sga_h0001-f0001 #sga_h0001-nm_grp_consulta{width: 300px;}
+#sga_h0001-f0001 #sga_h0001-st_grp_consulta{width: 80px;}
+
+#sga_h0001 #sga_h0001-f0001 .linha .grid_cabecalho {border: 1px solid #DCDCDC; border-bottom: 0px;}
+#sga_h0001-f0001 #sga_h0001-result .grid_cabecalho #sga_c0001-listanome_1{width: 30px;}
+#sga_h0001-f0001 #sga_h0001-result .grid_cabecalho #sga_c0001-listanome_2{width: 220px;}
+
+//#sga_h0001 #sga_h0001-f0001 .linha .grid_corpo  {margin: 0px; overflow: auto; height: 119px; max-height: 150px; margin-bottom: 10px; border: 1px solid #DCDCDC;}
+#sga_h0001-f0001 #sga_h0001-result .grid_corpo .sga_c0001-listanome_1{width: 70px;}
+#sga_h0001-f0001 #sga_h0001-result .grid_corpo .sga_c0001-listanome_2{width: 220px;}
+
+//#sga_h0001-f0001 #grid-busca-sga_c0001-consultanome .grid_corpo tr td:nth-child(1){width: 50px;}
+
+.div-modal #grid-busca-sga_h0001-consultaNome #sga_h0001-consultaNome_1{width: 40px !important;}
+.div-modal #grid-busca-sga_h0001-consultaNome #sga_h0001-consultaNome_2{width: 300px !important;}
+
+.div-modal #grid-busca-sga_h0001-consultaNome .sga_h0001-consultaNome_1{width: 40px !important;}

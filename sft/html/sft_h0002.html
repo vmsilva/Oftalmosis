@@ -1,0 +1,76 @@
+<div id="sft_h0002" class="janela">
+    <div id="sft_h0002-f0002">
+        <div class="linha">
+            <label for="sft_h0002-dt_atend">Data Atendimento:</label>
+            <input type="text" id="sft_h0002-dt_atend" name="sft_h0002[dt_atend]" value="" title="Data do Atendimento da Agenda" />
+        </div>
+        <div class="linha">
+            <label for="sft_h0002-cd_espld_medc">Especialidade:</label>
+            <input type="text" id="sft_h0002-cd_espld_medc" name="sft_h0002[cd_espld_medc]" value="" title="C&oacute;digo Especialidade M&&eacute;dica"/>
+            <input type="text" id="sft_h0002-nm_espld_medc" name="sft_h0002[nm_espld_medc]" value="" title="Nome  Especialidade M&&eacute;dica"/>
+            <button type="button" name="sft_h0002[btn_lista_espld_medc]" id="sft_h0002-btn_lista_espld_medc" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+            <label for="sft_h0002-cd_conselho">Profissional:</label>
+            <select id="sft_h0002-cd_conselho" name="sft_h0002[cd_conselho]">
+                <option selected value=""></option>
+            </select>
+            <input type="text" id="sft_h0002-nr_conselho" name="sft_h0002[nr_conselho]" value="" title="N&uacute;mero Conselho"/>
+            <input type="hidden" id="sft_h0002-cd_prof" name="sft_h0002[cd_prof]" value="" title="Nome Profissional" />
+            <input type="text" id="sft_h0002-nm_prof" name="sft_h0002[nm_prof]" value="" title="Nome Profissional"/>
+            <button type="button" name="sft_h0002[btn_lista_profissional]" id="sft_h0002-btn_lista_profissional" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="botao-acao">
+            <input type="hidden" id="sft_h0002-cd_agenda" name="sft_h0002[cd_agenda]" value="" title="Código Atendimento Agenda" />
+            <button id="sft_h0002-btn_agenda" class="btn_gerar" title="Buscar Agendamento" type="button" name="sft_h0002[btn_agenda]">Agendamento</button>
+        </div>
+        <div class="linha">
+            <?php
+                if(file_exists('../../default/view/buscaPac.php')){
+                    include '../../default/view/buscaPac.php';
+                }else{
+                    echo 'Arquivo buscaPac não encontrado!';
+                }
+            ?>
+        </div>
+        <div class="linha">
+            <fieldset>
+                <legend>Dados Faturarento</legend>
+                <div class="linha">
+                    <div id="sft_h0002-grp_procd_medc">
+                        <label for="sft_h0002-cd_grp_consulta">Grupo Consulta:</label>
+                        <input type="text" id="sft_h0002-cd_grp_consulta" name="sft_h0002[cd_grp_consulta]" value="" title="Código Grupo Procedimento"/>
+                        <input type="text" id="sft_h0002-nm_grp_consulta" name="sft_h0002[nm_grp_consulta]" value="" title="Nome Grupo Procedimento"/>
+                        <button type="button" name="sft_h0002[btn_lista_grupo_procedimento]" id="sft_h0002-btn_lista_grupo_procedimento" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+                        <button type="button" name="sft_h0002[btn_add_grp_consulta]" id="sft_h0002-btn_add_grp_consulta" class="btn_add" title="Clique no botão para listar informação"></button>
+                        <button type="button" name="sft_h0002[btn_rem_grp_consulta]" id="sft_h0002-btn_rem_grp_consulta" class="btn_rem" title="Clique no botão para listar informação"></button>
+                        <div class="linha">
+                            <select id="sft_h0002-tbl_result-grupo_consulta" size="3" multiple title=""></select>
+                        </div>
+                    </div>
+                    <div id="sft_h0002-procd_medc">
+                        <label for="sft_h0002-cd_procd_medc">Procedimento:</label>
+                        <input type="text" id="sft_h0002-cd_procd_medc" name="sft_h0002[cd_procd_medc]" value="" title="Código Procedimento"/>
+                        <input type="text" id="sft_h0002-nm_procd_medc" name="sft_h0002[nm_procd_medc]" value="" title="Nome Procedimento"/>
+                        <button type="button" name="sft_h0002[btn_lista_procedimento]" id="sft_h0002-btn_lista_procedimento" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+                        <button type="button" name="sft_h0002[btn_add_procedimento]" id="sft_h0002-btn_add_procedimento" class="btn_add" title="Clique no botão para listar informação"></button>
+                        <button type="button" name="sft_h0002[btn_rem_procedimento]" id="sft_h0002-btn_rem_procedimento" class="btn_rem" title="Clique no botão para listar informação"></button>
+                        <div class="linha">
+                            <select id="sft_h0002-tbl_result-procd_medc" size="3" multiple title=""></select>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sft_h0002';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

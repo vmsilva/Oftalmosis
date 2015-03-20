@@ -1,0 +1,150 @@
+<div id="sam_h0002" class="janela">
+    <div class="linha">
+            <?php
+                if(file_exists('../../default/view/buscaPac.php')){
+                    include '../../default/view/buscaPac.php';
+                }else{
+                    echo 'Arquivo buscaPac não encontrado!';
+                }
+            ?>
+        </div>
+    <div id="sam_h0002-f0001">
+        <div class="linha">
+            <fieldset id="dv_escola">
+                <legend>Dados Escola</legend>
+                <div class="linha">
+                    <label for="sam_h0002-cd_escola">Escola:</label>
+                    <input type="text" id="sam_h0002-cd_escola" name="sam_h0002[cd_escola]" value="" title="C&oacute;digo Escola" />
+                    <input type="text" id="sam_h0002-nm_escola" name="sam_h0002[nm_escola]" value="" title="Nome Escola" />
+                    <button type="button" name="sam_h0002[btn_lista_escola]" id="sam_h0002-btn_lista_escola" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+                    <label for="sam_h0002-in_turno">Turno:</label>
+                    <select id="sam_h0002-in_turno" name="sam_h0002[in_turno]">
+                        <option selected value=""></option>
+                        <option value="0">Matutino</option>
+                        <option value="1">Vespertino</option>
+                        <option value="2">Noturno</option>
+                    </select>
+                </div>
+                <div class="linha">
+                    <label for="sam_h0002-in_diabetico">Diabético:</label>
+                    <select id="sam_h0002-in_diabetico" name="sam_h0002[in_diabetico]">
+                        <option selected value=""></option>
+                        <option value="S">Sim</option>
+                        <option value="N">Não</option>
+                    </select>
+                </div>
+            </fieldset>
+        </div>
+        <div class="linha">
+            <fieldset id="dv_atendimento">
+                <legend>Dados Atendimento</legend>
+                <div class="linha">
+                    <label for="sam_h0002-cd_conselho">Profissional:</label>
+                    <select id="sam_h0002-cd_conselho" name="sam_h0002[cd_conselho]">
+                        <option selected value=""></option>
+                    </select>
+                    <input type="text" id="sam_h0002-nr_conselho" name="sam_h0002[nr_conselho]" value="" title="N&uacute;mero Conselho" />
+                    <input type="hidden" id="sam_h0002-cd_prof" name="sam_h0002[cd_prof]" value="" title="Nome Profissional" />
+                    <input type="text" id="sam_h0002-nm_prof" name="sam_h0002[nm_prof]" value="" title="Nome Profissional" />
+                    <button type="button" name="sam_h0002[btn_lista_profissional]" id="sam_h0002-btn_lista_profissional" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+                </div>
+                <div class="linha">
+                    <label for="sam_h0002-cd_espld_medc">Especialidade:</label>
+                    <input type="text" id="sam_h0002-cd_espld_medc" name="sam_h0002[cd_espld_medc]" value="" title="C&oacute;digo Especialidade M&&eacute;dica" />
+                    <input type="text" id="sam_h0002-nm_espld_medc" name="sam_h0002[nm_espld_medc]" value="" title="Nome  Especialidade M&&eacute;dica" />
+                    <button type="button" name="sam_h0002[btn_lista_espld_medc]" id="sam_h0002-btn_lista_espld_medc" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+                </div>
+                <div class="linha">
+                    <label for="sam_h0002-nm_tp_consulta">Tipo Consulta:</label>
+                    <select id="sam_h0002-nm_tp_consulta" name="sam_h0002[nm_tp_consulta]">
+                        <option selected value=""></option>
+                    </select>
+                    <label for="sam_h0002-dt_atend">Dt. Atend.:</label>
+                    <input type="text" id="sam_h0002-dt_atend" name="sam_h0002[dt_atend]" value="" title="Data de Atendimento" />
+                </div>
+                <div class="linha">
+                    <hr>
+                </div>
+                <div class="linha">
+                    <div id="dv_atendimento_dados">
+                        <script> $('#dv_atendimento_dados').tabs();</script>
+                        <ul>
+                            <li><a href="#aba1">Histórico Atual de Doença</a></li>
+                            <li><a href="#aba2">Antecedentes</a></li>
+                            <li><a href="#aba3">Ectoscopia</a></li>
+                            <li><a href="#aba4">Atendimento</a></li>
+                            <li><a href="#aba5">Conduta</a></li>
+                        </ul>
+                        <div id="aba1">
+                            <div class="linha">
+                                <textarea id="sam_h0002-ds_hist_atual_doenca"></textarea>
+                            </div>
+                        </div>
+                        <div id="aba2">
+                            <div class="linha">
+                                <textarea id="sam_h0002-ds_anteced"></textarea>
+                            </div>
+                        </div>
+                        <div id="aba3">
+                            <div class="linha">
+                                <textarea id="sam_h0002-ds_ectoscopia"></textarea>
+                            </div>
+                        </div>
+                        <div id="aba4">
+                            <div>
+                                <div class="quadro_graus">
+                                    <label>AV/SC:</label>
+                                    <div>
+                                        <label for="sam_h0002-in_av_sc_od">OD:</label>
+                                        <input type="text" id="sam_h0002-in_av_sc_od" name="sam_h0002[in_av_sc_od]" value="" title="AV/SC Olho Direito" />
+                                    </div>
+                                    <div>
+                                        <label for="sam_h0002-in_av_sc_oe">OE:</label>
+                                        <input type="text" id="sam_h0002-in_av_sc_oe" name="sam_h0002[in_av_sc_oe]" value="" title="AV/SC Olho Esquerdo" />
+                                    </div>
+                                </div>
+                                <div class="quadro_graus">
+                                    <label>Óculos:</label>
+                                    <div>
+                                        <label for="sam_h0002-in_oc_od">OD:</label>
+                                        <input type="text" id="sam_h0002-in_oc_od" name="sam_h0002[in_oc_od]" value="" title="AV/SC Olho Direito" />
+                                    </div>
+                                    <div>
+                                        <label for="sam_h0002-in_oc_oe">OE:</label>
+                                        <input type="text" id="sam_h0002-in_oc_oe" name="sam_h0002[in_oc_oe]" value="" title="AV/SC Olho Esquerdo" />
+                                    </div>
+                                </div>
+                                <div class="quadro_graus">
+                                    <label>Refração Dinâmica:</label>
+                                    <div>
+                                        <label for="sam_h0002-in_rf_dn_od">OD:</label>
+                                        <input type="text" id="sam_h0002-in_rf_dn_od" name="sam_h0002[in_rf_dn_od]" value="" title="AV/SC Olho Direito" />
+                                    </div>
+                                    <div>
+                                        <label for="sam_h0002-in_rf_dn_oe">OE:</label>
+                                        <input type="text" id="sam_h0002-in_rf_dn_oe" name="sam_h0002[in_rf_dn_oe]" value="" title="AV/SC Olho Esquerdo" />
+                                    </div>
+                                </div>
+                                <div style="clear: both"></div>
+                            </div>
+                        </div>
+                        <div id="aba5">
+                            <div class="linha">
+                                <textarea id="sam_h0002-ds_conduta"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+        <div class="botao-acao">
+        <?php
+            if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+                $ar_formulario = 'sam_h0002';
+                include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+            }else{
+                echo 'Arquivo botaoAcao.php não encontrado!';
+            }
+        ?>
+        </div>
+</div>

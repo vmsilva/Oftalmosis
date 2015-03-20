@@ -1,0 +1,30 @@
+<div id="sga_h0017" class="janela">
+    <div id="sga_h0017-f0017">
+        <div id="sga_h0017-tblresult">            
+        </div>
+        <div class="linha">
+            <label for="sga_h0017-cd_procd_medc" >Procedimento:</label>
+            <input type="text" id="sga_h0017-cd_procd_medc" name="sga_h0017[cd_procd_medc]" title="Codigo procedimento"/>
+            <input type="text" id="sga_h0017-nm_procd_medc" name="sga_h0017[nm_procd_medc]" title="Nome procedimento"/>
+            <button type="button" name="sga_h0017[btn_lista_procd]" id="sga_h0017-btn_lista_procd" class="buscar" title="Clique no bot&atilde;o para buscar Procedimento"></button>
+        </div>
+        <div class="linha">
+            <label for="sga_h0017-dt_exc_procd" >Data:</label>
+            <input type="text" id="sga_h0017-dt_exc_procd" name="sga_h0017[dt_exc_procd]" title=""/>
+        </div>
+        <div class="linha">
+            <label for="sga_h0017-ds_exc_procd" >Motivo:</label>
+            <textarea id="sga_h0017-ds_exc_procd" name="sga_h0017[ds_exc_procd]" title=""></textarea>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sga_h0017';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

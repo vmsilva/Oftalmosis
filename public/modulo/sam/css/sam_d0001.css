@@ -1,0 +1,51 @@
+#sam_h0001 #sam_h0001-f0001 .linha fieldset{
+    border: 1px solid #DCDCDC;
+    width: 450px;
+}
+
+#sam_h0001 #sam_h0001-f0001 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#sam_h0001 #sam_h0001-f0001 .linha label:first-child {
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-cd_escola{width: 46px;}
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nm_escola{width: 276px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-cd_munic_esc{width: 46px;}
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-sg_uf{width: 40px;}
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nm_munic{width: 231px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nm_bairro_esc,
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-ds_logr_esc{width: 350px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nr_cep_esc{width: 60px;}
+#sam_h0001 #sam_h0001-f0001 .linha label[for=sam_h0001-ds_compl_esc]{margin-left: 15px;}
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-ds_compl_esc{width: 173px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha label[for=sam_h0001-ds_lt_esc],
+#sam_h0001 #sam_h0001-f0001 .linha label[for=sam_h0001-nr_end_esc]{margin-left: 100px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-ds_qd_esc,
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-ds_lt_esc,
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nr_end_esc{width: 30px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha label[for=sam_h0001-nr_fone_02],
+#sam_h0001 #sam_h0001-f0001 .linha label[for=sam_h0001-nr_fone_03]{margin-left: 8px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nr_fone_01,
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nr_fone_02,
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nr_fone_03{width: 80px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-nm_resp_esc{width: 350px;}
+
+#sam_h0001 #sam_h0001-f0001 .linha #sam_h0001-ds_email_esc{width: 350px;}

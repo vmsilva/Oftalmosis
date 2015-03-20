@@ -1,0 +1,30 @@
+body{background: white}
+
+#dv_impressao{height: 300px; width: 400px; z-index: 2000000; top: 0px; overflow: hidden;}
+#dv_tabela_imp{
+    width: 400px;
+    font-size: 10px; 
+    font-weight: bold;
+    font-family: arial;
+    display: inline-block;
+}
+
+#dv_tabela_imp .linha #nr_solic{display: inline-block; width: 50px; font-size: 10px; font-weight: normal;}
+
+#dv_tabela_imp #dt_solic{display: inline-block; width: 50px; font-size: 10px; font-weight: normal;}
+#dv_tabela_imp #hr_solic{display: inline-block; width: 50px; margin-left:10px; font-size: 10px; font-weight: normal;}
+#dv_tabela_imp #nm_solic{display: inline-block; width: 51px; font-size: 10px; font-weight: normal;}
+
+#dv_tabela_imp #dt_atend{display: inline-block; width: 50px; font-size: 10px; font-weight: normal;}
+#dv_tabela_imp #hr_atend{display: inline-block; width: 50px; margin-left:10px; font-size: 10px; font-weight: normal;}
+#dv_tabela_imp #nm_atend{display: inline-block; width: 51px; font-size: 10px; font-weight: normal;}
+
+#dv_tabela_imp .linha table{margin-top: 10px; font-size: 10px;}
+#dv_tabela_imp .linha table thead tr th{text-align: left;}
+#dv_tabela_imp .linha table thead tr th:first-child{width: 70px;}
+
+#dv_tabela_imp .linha table tbody tr td{text-align: left; font-weight: normal}
+
+
+
+

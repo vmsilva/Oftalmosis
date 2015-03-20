@@ -1,0 +1,1 @@
+<iframe src="./scp/controll/scp_c0004.php?<?php echo http_build_query($_POST); ?>" width="800px" height="600px"></iframe>

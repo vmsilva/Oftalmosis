@@ -1,0 +1,76 @@
+#sga_h0003-f0003{width: 750px;}
+#sga_h0003-f0003 label:first-child{display: inline-block; width: 100px;}
+#sga_h0003-f0003 #sga_h0003-cd_procd_medc{width: 80px;}
+#sga_h0003-f0003 #sga_h0003-nm_procd_medc{width: 456px;}
+#sga_h0003-f0003 #sga_h0003-nr_dia_semana{width: 77px;}
+#sga_h0003-f0003 #sga_h0003-in_local_atend {width: 274px;}
+#sga_h0003-f0003 #sga_h0003-hr_ini_atend{width: 35px;}
+#sga_h0003-f0003 #sga_h0003-hr_fin_atend{width: 35px;}
+#sga_h0003-f0003 #sga_h0003-nr_id_max {width: 30px;}
+#sga_h0003-f0003 #sga_h0003-nr_id_min {width: 30px;}
+#sga_h0003-f0003 #sga_h0003-nr_qtd_atend {width: 30px;}
+
+#sga_h0003-f0003 label[for="sga_h0003-in_local_atend"]{
+    display: inline-block;
+    width: 150px;
+    margin-left: 59px;
+}
+
+#sga_h0003-f0003 label[for="sga_h0003-hr_ini_atend"]{
+    display: inline-block;
+    width: 100px;
+    margin-left: 0px;
+}
+#sga_h0003-f0003 label[for="sga_h0003-hr_fin_atend"]{
+    display: inline-block;
+    width: 80px;
+    margin-left: 15px;
+}
+
+#sga_h0003-f0003 label[for="sga_h0003-nr_id_max"]{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+}
+#sga_h0003-f0003 label[for="sga_h0003-nr_id_min"]{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+}
+
+#sga_h0003-f0003 label[for="sga_h0003-nr_qtd_atend"]{
+    display: inline-block;
+    width: 30px;
+    margin-left: 10px;
+}
+
+
+
+#sga_h0003 #sga_h0003-f0003 .linha .grid_cabecalho {border: 1px solid #DCDCDC; border-bottom: 0px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_cabecalho #sga_c0002-listar_1{width: 120px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_cabecalho #sga_c0002-listar_2{width: 320px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_cabecalho #sga_c0002-listar_3{width: 50px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_cabecalho #sga_c0002-listar_4{width: 70px;}
+
+#sga_h0003 #sga_h0003-f0003 .linha .grid_corpo  {margin: 0px; overflow: auto; height: 150px; max-height: 150px; margin-bottom: 10px; border: 1px solid #DCDCDC;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_corpo   .sga_c0002-listar_1{width: 70px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_corpo   .sga_c0002-listar_2{width: 20px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_corpo   .sga_c0002-listar_3{width: 50px;}
+#sga_h0003 #sga_h0003-f0003 .linha .grid_corpo   .sga_c0002-listar_4{width: 150px;}
+
+#grid-busca-sga_c0003-listar{width: 750px !important}
+#grid-busca-sga_c0003-listar .grid_cabecalho table thead tr th{width: 110px;}
+#grid-busca-sga_c0003-listar .grid_cabecalho table thead tr th{width: 45px;}
+
+#grid-busca-sga_c0003-listar .grid_corpo table tbody tr td{width: 40px;}
+#grid-busca-sga_c0003-listar .grid_corpo table tbody tr td{width: 110px;}
+
+//##########################################################################################
+
+#grid-busca-sga_c0002-buscanomeprocedimento{width: 500px !important}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_cabecalho table thead tr th:nth-child(1){width: 60px;}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_cabecalho table thead tr th:nth-child(2){width: 250px;}
+
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_corpo table tbody tr td:nth-child(1){width: 90px;}
+#grid-busca-sga_c0002-buscanomeprocedimento .grid_corpo table tbody tr td:nth-child(2){width: 310px;}
+

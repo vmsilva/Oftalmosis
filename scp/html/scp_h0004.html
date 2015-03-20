@@ -1,0 +1,32 @@
+<div id="scp_h0004" class="janela">
+    <div id="scp_h0004-f0004">
+        <div class="linha">
+            <?php
+                if(file_exists('../../default/view/buscaPac.php')){
+                    include '../../default/view/buscaPac.php';
+                }else{
+                    echo 'Arquivo buscaPac não encontrado!';
+                }
+            ?>
+        </div>
+        <div class="linha">
+            <fieldset>
+                <legend>Dados Locação Anterior</legend>
+                <div class="linha">
+                    <label for="scp_h0004-nr_pront_antigo">Nr.Pront.Antigo:</label>
+                    <input type="text" id="scp_h0004-nr_pront_antigo" name="scp_h0004[nr_pront_antigo]" value="" title="C&oacute;digo Prontu&aacute;rio Antigo" />
+                </div>
+            </fieldset>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0004';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

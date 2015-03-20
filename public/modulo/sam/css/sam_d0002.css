@@ -1,0 +1,84 @@
+.dialog-sam_h0002{width: 585px !important}
+
+#sam_h0002 #sam_h0002-f0001 .linha fieldset{
+    border: 1px solid #DCDCDC;
+    width: 560px !important;
+}
+
+#sam_h0002 #sam_h0002-f0001 fieldset legend{
+    color: #DCDCDC;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 10px;
+    font-style: italic;
+    font-family: tahoma;
+}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_escola label:first-child {
+    display: inline-block;
+    width: 50px;
+    margin-left: 10px;
+}
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento label:first-child {
+    display: inline-block;
+    width: 70px;
+    margin-left: 10px;
+}
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento .linha #dv_atendimento_dados label:first-child {
+    display: inline-block;
+    margin-left: 10px;
+    width: auto;
+}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento .linha #dv_atendimento_dados textarea{
+    margin-left: 2px;
+    resize:none;
+    width: 530px;
+}
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento .linha #dv_atendimento_dados #dv_atendimento_dados_linha_4{
+    border: 1px solid black;
+    resize:none;
+    width: 505px;
+}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento hr{
+    display: inline-block;
+    border: 1px solid #DCDCDC;
+    width: 505px;
+    margin-left: 10px;
+}
+
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-cd_escola{width: 46px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-nm_escola{width: 250px;}
+#sam_h0002 #sam_h0002-f0001 .linha label[for=sam_h0002-in_turno]{margin-left: 8px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_turno{width: 80px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_diabetico{width: 53px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-cd_conselho{width: 70px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-nr_conselho{width: 55px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-nm_prof{width: 270px;}
+
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-cd_espld_medc{width: 63px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-nm_espld_medc{width: 335px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-nm_tp_consulta{width: 120px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-dt_atend{width: 60px;}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento_dados div{
+    margin: 0px;
+    padding: 2px;
+}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_av_sc_od{width: 30px; margin-left: 2px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_av_sc_oe{width: 30px;; margin-left: 3px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_oc_od{width: 30px;; margin-left: 2px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_oc_oe{width: 30px;; margin-left: 3px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_rf_dn_od{width: 30px;; margin-left: 2px;}
+#sam_h0002 #sam_h0002-f0001 .linha #sam_h0002-in_rf_dn_oe{width: 30px;; margin-left: 3px;}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento_dados .quadro_graus {
+    display: block;
+    width: 150px;
+    float: left
+}
+
+#sam_h0002 #sam_h0002-f0001 .linha #dv_atendimento_dados #dv_atendimento_dados {
+    margin: 5px;
+}

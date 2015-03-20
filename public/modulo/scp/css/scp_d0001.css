@@ -1,0 +1,21 @@
+#scp_h0001 label[for=scp_h0001-cd_prateleira]{margin-right: 0px;}
+#scp_h0001-cd_prateleira{width: 15px;}
+#scp_h0001-nm_prateleira{width: 35px;}
+#scp_h0001 label[for=scp_h0001-in_andar_prateleira]{margin-left: 100px;}
+#scp_h0001-in_andar_prateleira{width: 70px;}
+#scp_h0001 label[for=scp_h0001-nr_linha_prateleira]{margin-right: 1px;}
+#scp_h0001-nr_linha_prateleira{width: 23px;}
+#scp_h0001 label[for=scp_h0001-nr_coluna_prateleira],
+#scp_h0001 label[for=scp_h0001-nr_max_linha_coluna_item]{margin-left: 25px;}
+#scp_h0001-nr_coluna_prateleira{width: 23px;}
+#scp_h0001-nr_max_linha_coluna_item{width: 23px;}
+#scp_h0001 label[for=scp_h0001-st_prateleira]{margin-right: 15px;}
+#scp_h0001-st_prateleira{width: 70px;}
+
+#scp_h0001 #scp_h0001-tbl_result{border: 1px solid #DCDCDC;}
+
+#scp_h0001 #scp_h0001-tbl_result #grid-busca-scp_c0001-consultaNomePrateleira .grid_corpo table tbody tr .scp_c0001-consultaNomePrateleira_1{width: 45px}
+#scp_h0001 #scp_h0001-tbl_result #grid-busca-scp_c0001-consultaNomePrateleira .grid_corpo table tbody tr .scp_c0001-consultaNomePrateleira_2{width: 55px}
+#scp_h0001 #scp_h0001-tbl_result #grid-busca-scp_c0001-consultaNomePrateleira .grid_corpo table tbody tr .scp_c0001-consultaNomePrateleira_3{width: 55px}
+#scp_h0001 #scp_h0001-tbl_result #grid-busca-scp_c0001-consultaNomePrateleira .grid_corpo table tbody tr .scp_c0001-consultaNomePrateleira_4{width: 55px}
+#scp_h0001 #scp_h0001-tbl_result #grid-busca-scp_c0001-consultaNomePrateleira .grid_corpo table tbody tr .scp_c0001-consultaNomePrateleira_5{width: 55px}

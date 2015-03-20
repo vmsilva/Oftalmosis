@@ -1,0 +1,31 @@
+<div id="sca_h0001" class="janela">
+    <div id="f0001">
+        <div class="linha">
+            <label for="sca_h0001-cd_empresa">Empresa:</label>
+            <input type="text" id="sca_h0001-cd_empresa" name="sca_h0001[cd_empresa]" value="" title="Código Empresa" />
+            <input type="text" id="sca_h0001-nm_empresa" name="sca_h0001[nm_empresa]" value="" title="Nome Empresa" />
+            <button type="button" name="sca_h0001[btn_lista_empresa]" id="sca_h0001-btn_lista_empresa" class="buscar" title="Clique no botão para buscar informação"></button>
+        </div>
+        <div class="linha">
+            <label for="sca_h0001-st_empresa">Status:</label>
+            <select id="sca_h0001-st_empresa" name="sca_h0001[st_empresa]">
+                <option selected value=""></option>
+                <option value="0">Ativo</option>
+                <option value="1">Inativo</option>
+            </select>
+            <label id="sca_h0001-lbl_in_logomarca" for="sca_h0001-in_logomarca">Logomarca:</label>
+            <input type="text" id="sca_h0001-in_logomarca" name="sca_h0001[in_logomarca]" value="" title="Logomarca da Empresa" />
+        </div>
+        <div id="sca_h0001-tbl_result" class="linha"></div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'sca_h0001';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

@@ -1,0 +1,50 @@
+<div id="scp_h0008" class="janela">
+    <div id="scp_h0008-f0008">
+        <div class="linha">
+            <label for="scp_h0008">Usuário:</label>
+            <input type="hidden" id="scp_h0008-cd_usuario" name="scp_h0008[cd_usuario]" value="" title="C&oacute;digo Usu&aacute;rio" />
+            <input type="text" id="scp_h0008-nr_matr_usu" name="scp_h0008[nr_matr_usu]" value="" title="Matr&iacute;cula Usu&aacute;rio" />
+            <input type="text" id="scp_h0008-nm_usuario" name="scp_h0008[nm_usuario]" value="" title="Nome Usu&aacute;rio" />
+            <button type="button" name="scp_h0008[btn_lista_usuario]" id="scp_h0008-btn_lista_usuario" class="buscar" title="Clique no bot&atilde;o para buscar informa&ccedil;&atilde;o"></button>
+        </div>
+        <div class="linha">
+            <label for="scp_h0008-ds_snh_usu">Senha:</label>
+            <input type="password" id="scp_h0008-ds_snh_usu" name="scp_h0008[ds_snh_usu]" value="" title="Senha Usu&aacute;rio" />
+        </div>
+        <div class="linha">
+            <label for="scp_h0008-nr_prontuario">N&uacute;mero Prontu&aacute;rio:</label>
+            <input type="text" id="scp_h0008-nr_prontuario" name="scp_h0008[nr_prontuario]" value="" title="C&oacute;digo Prontu&aacute;rio Paciente" />
+        </div>
+        <div class="linha">
+            <div class="grid_cabecalho">
+                <table>
+                    <thead>
+                        <tr>
+                            <th id='th_pro'>Prontuário</th>
+                            <th id='th_pac'>Paciente</th>
+                            <th id='th_sex'>Sexo</th>
+                            <th id='th_dtn'>Dt.Nasc.</th>
+                            <th id='th_mae'>Mãe</th>
+                            <th id='th_lnk'>&nbsp</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+            <div id="scp_h0008-tbl_result" class="linha selecionavel">
+                <table>
+                    <tbody class='grid_corpo'></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0008';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

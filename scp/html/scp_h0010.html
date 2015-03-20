@@ -1,0 +1,24 @@
+<div id="scp_h0010" class="janela">
+    <div id="scp_h0010-f0010">
+         <div class="linha">
+            <input type="hidden" id="scp_h0010-nr_solic_mov" name="scp_h0010[nr_solic_mov]"/>
+            <div id="scp_h0010-tbl_result" class="linha selecionavel"></div>
+            <div id="scp_h0010-tbl_lista" class="linha selecionavel"></div>
+            <div id="scp_h0010-tbl_lista_conf" class="linha selecionavel"></div>
+        </div>
+    </div>
+    <div id="dialog-negar" title="Motivo da Negação">
+        <label>Descrição:</label>
+        <textarea id="dialog-negar-descricao"></textarea>
+     </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0010';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+<div id="scp_h0002" class="janela">
+    <div id="scp_h0002-f0002">
+        <div class="dv_quadro">
+            <div id="dv_esquerda">
+                <div class="linha">
+                    <label for="scp_h0002-nr_prontuario">N&uacute;mero Prontu&aacute;rio:</label>
+                    <input type="text" id="scp_h0002-nr_prontuario" name="scp_h0002[nr_prontuario]" value="" title="C&oacute;digo Prontu&aacute;rio Paciente" />
+                </div>
+                <div class="linha"><hr></div>
+                <fieldset>
+                    <legend>Dados Paciente</legend>
+                    <div class="linha">
+                        <label>Sexo:</label>
+                        <input type="text" id="scp_h0002-tp_sexo_pac" name="scp_h0002[tp_sexo_pac]" title="Sexo Paciente" value="" readonly/>
+                        <label id="scp_h0002-lbl_dt_nasc_pac">Dt.Nasc.:</label>
+                        <input type="text" id="scp_h0002-dt_nasc_pac" name="scp_h0002[dt_nasc_pac]" value="" title="Data de Nascimento" readonly/>
+                        <label id="scp_h0002-lbl_cns_pac">Nr.CNS:</label>
+                        <input type="text" id="scp_h0002-nr_cns_pac" name="scp_h0002[nr_cns_pac]" value="" title="N&uacute;mero Cart&atilde;o SUS" readonly/>
+                    </div>
+                    <div class="linha">
+                        <label>Nome:</label>
+                        <input type="hidden" id="scp_h0002-cd_pac" name="scp_h0002[cd_pac]" value=""/>
+                        <input type="text" id="scp_h0002-nm_pac" name="scp_h0002[nm_pac]" value="" title="Nome Paciente" readonly/>
+                    </div>
+                    <div class="linha">
+                        <label>Mãe:</label>
+                        <input type="text" id="scp_h0002-nm_mae_pac" name="scp_h0002[nm_mae_pac]" value="" title="Nome M&atilde;e Paciente" readonly/>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Prontuário(s) Antigo</legend>
+                    <div id="scp_h0002-tbl_result" class="linha selecionavel"></div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="dv_quadro">
+            <div id="dv_direita">
+                <div class="linha">
+                    <label>Prateleira:</label>
+                    <select id="scp_h0002-lt_prat_disp" name="scp_h0002[lt_prat_disp]"><option selected></option></select>
+                    <button type="button" name="scp_h0002[btn_lista_prateleira]" id="scp_h0002-btn_lista_prateleira" class="refresh" title="Clique no botão para listar informação"></button>
+                    <label for="scp_h0002-nr_total">Total:</label>
+                    <input type="text" id="scp_h0002-nr_total" name="scp_h0002[nr_total]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es" readonly/>
+                    <label for="scp_h0002-nr_livre">Livre:</label>
+                    <input type="text" id="scp_h0002-nr_livre" name="scp_h0002[nr_livre]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es Livre" readonly/>
+                    <label for="scp_h0002-nr_utilizada">Alocado:</label>
+                    <input type="text" id="scp_h0002-nr_utilizada" name="scp_h0002[nr_utilizada]" value="" title="N&uacute;mero de Posi&ccedil;&odblac;es Utilizada" readonly/>
+                </div>
+                <div id="scp_h0002-tbl_result_prat">
+                </div>
+                <input type="hidden" id="scp_h0002-cd_prateleira_aux" />
+                <input type="hidden" id="scp_h0002-nr_linha_aux" />
+                <input type="hidden" id="scp_h0002-nr_coluna_aux" />
+            </div>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0002';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

@@ -1,0 +1,58 @@
+<div id="scp_h0014" class="janela">
+    <div id="scp_h0014-f0014">
+        <div class="linha">
+            <label for="scp_h0014-dt_atend">Data Atendimento:</label>
+            <input type="text" id="scp_h0014-dt_atend" name="scp_h0014[dt_atend]" value="" title="Data do Atendimento da Agenda" />
+        </div>
+        <div class="linha">
+            <label for="scp_h0014-cb_profs">Profissional:</label>
+            <select id="scp_h0014-cb_profs" name="scp_h0014[cb_profs]"></select>
+        </div>
+        <div class="linha">
+            <label for="scp_h0014-cb_espld_medc">Especialidade:</label>
+            <select id="scp_h0014-cb_espld_medc" name="scp_h0014[cb_espld_medc]"></select>
+        </div>
+    </div>
+    <div id="scp_h0014-tbl_result">
+        <div class="grid_cabecalho">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prontuário</th>
+                        <th>Paciente</th>
+                        <th>Hr.Atend</th>
+                        <th>Situação</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="grid_corpo"><table><tbody id="tbody"></tbody></table></div>
+    </div>
+    <div id="scp_h0014-tbl_atend">
+        <div class="grid_cabecalho">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Prontuário</th>
+                        <th>Paciente</th>
+                        <th>Hr.Atend</th>
+                        <th>Situação</th>
+                        <th></th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+        <div class="grid_corpo"><table><tbody id="tbody"></tbody></table></div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0014';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>

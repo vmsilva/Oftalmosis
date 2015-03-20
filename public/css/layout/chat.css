@@ -1,0 +1,198 @@
+#phpChatUserList {
+	background: #fff;
+	display:inline-block;
+	max-height: 203px;
+	overflow-x: auto;
+	float:right;
+	width: 190px;
+	border:1px solid #d9d9d9;
+	border-radius: 5px 0 0 0;
+}
+
+#phpChatConteiner {
+/*
+	border-color: #d9d9d9 !important;
+	background: #fff !important;
+	border-radius: 5px 0 0 0;
+	overflow: hidden;
+	border-bottom: none;
+	border-bottom-left-radius: none;
+*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	
+	height:240px;
+
+}
+
+#phpChatUserList li{
+	display: block;
+	cursor: pointer;
+	padding: 10px 20px;
+	overflow: hidden;
+	white-space:nowrap; 
+	width: 12em; 
+	overflow:hidden; 
+	text-overflow: ellipsis;
+}
+
+#phpChatUserList span:first-child {
+	display: block;
+	color: #666;
+	font-weight: bolder;
+	text-transform: uppercase;
+	padding: 10px;
+	cursor: pointer;
+	
+	background: rgb(238,238,238); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(204,204,204,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(238,238,238,1)), color-stop(100%,rgba(204,204,204,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(238,238,238,1) 0%,rgba(204,204,204,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+
+}
+
+
+.phpChatWindowTitle {
+	cursor: default;
+	background: #E9E9E9;
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #d3d3d3
+}
+
+.phpChatWindowTitle span {
+	display: inline-block; 
+	padding: 7px
+}
+
+.phpChatWindowClose{
+	float:right;
+	display: block;
+	padding: 3px 8px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bolder;
+	color: #666;
+}
+
+.phpChatWindowClose:hover {
+	color: #222
+}
+
+.phpChatWindowInstance {
+	display: inline-block;
+	float: left;
+	height: 187px;
+	width: 200px;
+	border: 1px solid #d3d3d3;
+	margin-right: 10px;
+	border-radius: 3px 3px 0 0
+}
+
+.phpChatWindowMsg {
+	height: 154px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	max-width: 200px
+}
+
+.phpChatInputMsg {
+	margin-left: -1px;
+	width: 196px;
+	clear: both
+}
+
+.phpChatInputMsg:focus {
+	box-shadow: none !important;
+}
+
+.phpChatMsgLine {
+	padding: 5px;
+
+}
+
+.phpChatMsgLine b {
+	display: block;
+	font-weight: normal !important
+}
+
+.phpChatMsgLine span {
+	display: block;
+	font-weight: normal !important;
+
+}
+
+#phpChatWindow {
+	height: auto;
+	width: auto;
+	display: inline-block;
+	background: #fff;
+	
+	margin-right: 10px
+}
+
+.offline {
+	background: #f9f9f9;
+	color: #666
+}
+
+.offline:hover {background: #e9e9e9}
+
+.offline:before {
+	content: "";
+	margin-right: 10px;
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background: #666;
+	border-radius: 3px;
+}
+
+.online {
+	color: green;
+	background: #f9f9f9;
+}
+
+.online:before {
+	content: "";
+	margin-right: 10px;
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background: green;
+	border-radius: 3px;
+}
+
+.online:hover {background: #e9e9e9}
+
+
+.princ{float: right; text-align: right;}
+.princ b {
+    color: #444; 
+    border-radius: 2px; 
+    background-color: #e9e9e9; 
+    margin-bottom: 2px; 
+    display: inline-block;
+    border: 1px solid #d9d9d9;
+    padding: 2px 4px;
+}
+.princ span {color: #222;display: block; margin: 5px 3px; /*background: #f3f3f3; padding: 3px*/}
+
+
+
+.secund{float: left; text-align: left;}
+.secund b {
+    color: #354B64; 
+    border-radius: 2px; 
+    background-color: #CAD6E3; 
+    margin-bottom: 2px; 
+    display: inline-block;
+    border: 1px solid #A0B7CD;
+    padding: 2px 4px;
+}
+.secund span {color: #354B64;display: block; margin: 5px 3px; /*background:#EAEFF4; padding: 3px*/}

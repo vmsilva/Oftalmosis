@@ -1,0 +1,19 @@
+<div id="scp_h0013" class="janela">
+    <div id="scp_h0013-f0013">
+        <div class="linha">
+            <label for="scp_h0013-fakeupload">Arquivo:</label>
+            <input id="scp_h0013-fakeupload" name="scp_h0013[fakeupload]" class="fakeupload" type="text"/>
+            <input id="scp_h0013-realupload" name="scp_h0013[realupload]" class="realupload" type="file"/>
+        </div>
+    </div>
+    <div class="botao-acao">
+    <?php
+        if(file_exists($_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php')){
+            $ar_formulario = 'scp_h0013';
+            include $_SERVER['DOCUMENT_ROOT'].'/sistema/sca/controll/botaoAcao.php';
+        }else{
+            echo 'Arquivo botaoAcao.php não encontrado!';
+        }
+    ?>
+    </div>
+</div>
